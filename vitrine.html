@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Demonstração de Vitrine</title>
+  <meta name="robots" content="noindex, nofollow">
+
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@700;800&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --teal:  #1C4A52;
+      --olive: #5C6B32;
+      --gray-200: #DDE7E6;
+    }
+
+    html, body {
+      width: 100%; height: 100%;
+      overflow: hidden;
+      font-family: 'Inter', sans-serif;
+    }
+    a { text-decoration: none; color: inherit; }
+
+    header {
+      position: fixed; top: 0; left: 0; width: 100%; height: 80px;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 0 24px;
+      background: rgba(255,255,255,0.97);
+      border-bottom: 1px solid var(--gray-200);
+      z-index: 10;
+    }
+
+    .logo-link { display: flex; align-items: center; gap: 12px; }
+    .logo-link img { height: 42px; width: auto; display: block; }
+    .logo-text { display: flex; flex-direction: column; line-height: 1.15; }
+    .logo-text strong { font-family: 'Poppins', sans-serif; font-size: 1.05rem; font-weight: 800; color: var(--teal); }
+    .logo-text span { font-size: 0.65rem; font-weight: 600; letter-spacing: 0.10em; text-transform: uppercase; color: var(--olive); }
+
+    .voltar-link {
+      display: inline-flex; align-items: center; gap: 8px;
+      font-size: 0.875rem; font-weight: 600; color: var(--teal);
+      text-decoration: none; padding: 9px 18px; border-radius: 50px;
+      border: 1.5px solid var(--gray-200);
+      transition: border-color 0.2s, background 0.2s;
+    }
+    .voltar-link:hover { border-color: var(--olive); background: rgba(92,107,50,0.06); }
+    .voltar-link svg { width: 16px; height: 16px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; flex-shrink: 0; }
+
+    #vitrineFrame {
+      display: block; width: 100%; border: none;
+      margin-top: 80px;
+    }
+
+    @media (max-width: 480px) {
+      header             { padding: 0 14px; }
+      .logo-link         { gap: 8px; }
+      .logo-link img     { height: 32px; }
+      .logo-text strong  { font-size: 0.88rem; }
+      .logo-text span    { display: none; }
+      .voltar-link       { padding: 10px; border-radius: 50%; }
+      .voltar-link .voltar-text { display: none; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="index.html" class="logo-link" aria-label="Clínica Modea - Início">
+      <img src="assets/img/logo-icon.png" alt="Clínica Modea — Logo">
+      <span class="logo-text"><strong>Clínica Modea</strong><span>Saúde ocupacional</span></span>
+    </a>
+    <a href="index.html" class="voltar-link" aria-label="Voltar ao site">
+      <svg viewBox="0 0 24 24"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12 19 5 12 12 5"/></svg>
+      <span class="voltar-text">Voltar ao site</span>
+    </a>
+  </header>
+
+  <iframe id="vitrineFrame" title="Vitrine online da Clínica Modea" src="https://medicinadotrabalhobmltda.egestor.com.br/vitrine/"></iframe>
+
+  <script>
+    function resizeVitrine() {
+      var header = 80;
+      document.getElementById('vitrineFrame').style.height = (window.innerHeight - header) + 'px';
+    }
+    window.addEventListener('resize', resizeVitrine);
+    resizeVitrine();
+  </script>
+</body>
+</html>
