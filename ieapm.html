@@ -1,0 +1,1078 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>IEAPM — Instituto Erlei Andrade</title>
+  <meta name="description" content="IEAPM — Instituto Erlei Andrade: ecossistema nacional em Perícias Médicas, Gestão Ocupacional, Ergonomia e Tecnologia. Gestão centralizada, tecnologia própria e décadas de experiência a serviço da sua empresa.">
+  <meta name="keywords" content="IEAPM, Instituto Erlei Andrade, perícia médica empresarial, assistência técnica pericial, gestão ocupacional, ergonomia, e ocupacional, gestão de riscos, saúde ocupacional nacional">
+  <meta name="author" content="IEAPM — Instituto Erlei Andrade">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+  <meta name="theme-color" content="#0B3C5D">
+  <link rel="canonical" href="https://www.clinicamodea.com.br/ieapm.html">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.clinicamodea.com.br/ieapm.html">
+  <meta property="og:site_name" content="IEAPM — Instituto Erlei Andrade">
+  <meta property="og:title" content="IEAPM — Instituto Erlei Andrade">
+  <meta property="og:description" content="Gestão ocupacional, perícias médicas e tecnologia integradas à estratégia da sua empresa. Experiência que atravessa décadas, soluções preparadas para o futuro.">
+  <meta property="og:image" content="https://www.clinicamodea.com.br/assets/img/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale" content="pt_BR">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="IEAPM — Instituto Erlei Andrade">
+  <meta name="twitter:description" content="Perícias Médicas, Gestão Ocupacional, Ergonomia e Tecnologia integradas em um só ecossistema, com atuação em todo o Brasil.">
+  <meta name="twitter:image" content="https://www.clinicamodea.com.br/assets/img/og-image.jpg">
+
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="favicon-512.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="image" href="assets/img/sobre-img.jpg" fetchpriority="high">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@600;700;800&family=Fraunces:ital,wght@1,400;1,500&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --teal:        #0B3C5D;
+      --teal-dark:   #082C44;
+      --teal-light:  #1D5A82;
+      --olive:       #48545F;
+      --olive-dark:  #333C44;
+      --olive-light: #9BA5AC;
+      --dark:        #10161B;
+      --gray-900:    #1D2429;
+      --gray-800:    #333C42;
+      --gray-600:    #5B666C;
+      --gray-400:    #98A1A6;
+      --gray-200:    #DFE2E3;
+      --gray-100:    #EFF0EF;
+      --gray-50:     #F6F5F3;
+      --white:       #FFFFFF;
+      --text:        #1A2226;
+      --text-light:  #515C62;
+      --line:        rgba(11,60,93,0.13);
+    }
+
+    html { scroll-behavior: smooth; overflow-x: hidden; scroll-padding-top: 90px; }
+    body {
+      font-family: 'Inter', sans-serif;
+      color: var(--text);
+      background: var(--gray-50);
+      overflow-x: hidden;
+      line-height: 1.65;
+      opacity: 0;
+      transition: opacity 0.5s ease;
+      font-size: 16px;
+    }
+    body.loaded { opacity: 1; }
+    img { max-width: 100%; height: auto; display: block; }
+    a { text-decoration: none; color: inherit; }
+    ul { list-style: none; }
+
+    .container { width: 100%; max-width: 1220px; margin: 0 auto; padding: 0 32px; }
+
+    :focus-visible { outline: 2px solid var(--olive); outline-offset: 3px; }
+
+    /* ===== HEADER ===== */
+    header {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+      background: rgba(246,245,243,0.97);
+      border-bottom: 1px solid var(--line);
+      transition: box-shadow 0.3s;
+    }
+    header.scrolled { box-shadow: 0 2px 20px rgba(11,60,93,0.08); }
+
+    .header-inner { display: flex; align-items: center; justify-content: space-between; height: 90px; gap: 24px; }
+
+    .logo-link { display: flex; align-items: center; gap: 12px; }
+    .logo-text { display: flex; flex-direction: column; line-height: 1.2; }
+    .logo-text strong { font-family: 'Poppins', sans-serif; font-size: 1.15rem; font-weight: 800; color: var(--teal); letter-spacing: 0.01em; }
+    .logo-text span { font-size: 0.62rem; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--olive); }
+
+    nav { display: flex; align-items: center; gap: 6px; }
+    nav a {
+      position: relative;
+      font-size: 0.82rem; font-weight: 500; letter-spacing: 0.02em; color: var(--gray-800);
+      padding: 8px 14px;
+      transition: color 0.2s;
+      white-space: nowrap;
+    }
+    nav a:not(.nav-modea):not(.btn-nav)::after {
+      content: ''; position: absolute; left: 14px; right: 14px; bottom: 4px;
+      height: 1px; background: var(--olive);
+      transform: scaleX(0); transform-origin: left;
+      transition: transform 0.3s ease;
+    }
+    nav a:hover { color: var(--teal); }
+    nav a:not(.nav-modea):not(.btn-nav):hover::after,
+    nav a.nav-active:not(.nav-modea):not(.btn-nav)::after { transform: scaleX(1); }
+    nav a.nav-active:not(.btn-nav) { color: var(--teal); }
+
+    .btn-nav {
+      background: var(--teal); color: var(--white) !important;
+      padding: 10px 20px; border-radius: 8px;
+      font-weight: 600; font-size: 0.8rem; letter-spacing: 0.02em;
+      transition: background 0.2s;
+      margin-left: 6px;
+    }
+    .btn-nav:hover { background: var(--teal-dark); color: var(--white) !important; }
+
+    .nav-modea {
+      display: inline-flex; align-items: center; gap: 7px;
+      color: var(--olive) !important;
+      font-weight: 600 !important;
+    }
+    .nav-modea svg { width: 14px; height: 14px; flex-shrink: 0; }
+    .nav-modea:hover { color: var(--olive-dark) !important; }
+    .mobile-nav .nav-modea { justify-content: center; }
+
+    .menu-toggle { display: none; flex-direction: column; gap: 5px; cursor: pointer; padding: 6px; border: none; background: none; }
+    .menu-toggle span { display: block; width: 22px; height: 1.5px; background: var(--teal); transition: all 0.3s; }
+
+    .mobile-nav {
+      display: none; position: fixed; top: 90px; left: 0; right: 0;
+      background: var(--white); padding: 8px 24px 24px;
+      border-bottom: 1px solid var(--line);
+      z-index: 999;
+    }
+    .mobile-nav.open { display: flex; flex-direction: column; }
+    .mobile-nav a { padding: 14px 4px; font-weight: 500; color: var(--text); border-bottom: 1px solid var(--gray-100); }
+    .mobile-nav a.nav-active:not(.btn-nav) { color: var(--teal); }
+    .mobile-nav .btn-nav { margin-top: 16px; text-align: center; border-bottom: none; background: var(--teal); color: var(--white) !important; }
+
+    /* ===== HERO ===== */
+    .hero {
+      position: relative; min-height: 100vh;
+      display: flex; align-items: flex-end; padding-top: 90px;
+      background-image: url('assets/img/sobre-img.jpg');
+      background-size: cover; background-position: center 35%; background-attachment: fixed;
+      overflow: hidden;
+    }
+    .hero::before {
+      content: ''; position: absolute; inset: 0;
+      background: linear-gradient(180deg, rgba(16,22,27,0.74) 0%, rgba(16,22,27,0.58) 40%, rgba(16,22,27,0.92) 100%);
+      z-index: 0;
+    }
+    .hero-content { position: relative; z-index: 1; max-width: 780px; padding: 64px 0 88px; }
+
+    .hero-eyebrow {
+      display: flex; align-items: center; gap: 12px;
+      color: rgba(255,255,255,0.75);
+      font-size: 0.76rem; font-weight: 600; letter-spacing: 0.16em;
+      text-transform: uppercase; margin-bottom: 26px;
+    }
+    .hero-eyebrow::before { content: ''; width: 32px; height: 1px; background: var(--olive-light); }
+
+    .hero h1 {
+      font-family: 'Poppins', sans-serif;
+      font-size: clamp(2.3rem, 5.6vw, 4.2rem);
+      font-weight: 700; color: var(--white); line-height: 1.06; margin-bottom: 22px;
+      letter-spacing: -0.015em;
+    }
+
+    .hero-slogan {
+      font-family: 'Fraunces', serif;
+      font-size: clamp(1.05rem, 1.6vw, 1.3rem); font-style: italic; font-weight: 400;
+      color: var(--olive-light); margin-bottom: 24px; max-width: 560px;
+    }
+
+    .hero h2 { font-size: clamp(1rem, 1.6vw, 1.15rem); font-weight: 400; color: rgba(255,255,255,0.82); margin-bottom: 44px; max-width: 620px; line-height: 1.7; }
+
+    .hero-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 28px; margin-bottom: 64px; }
+
+    .btn-primary {
+      display: inline-flex; align-items: center; gap: 10px;
+      background: var(--teal-light); color: var(--white);
+      padding: 15px 30px; border-radius: 8px;
+      font-weight: 600; font-size: 0.92rem;
+      transition: background 0.2s;
+    }
+    .btn-primary:hover { background: var(--teal); }
+
+    .link-arrow {
+      display: inline-flex; align-items: center; gap: 8px;
+      color: var(--white); font-weight: 500; font-size: 0.92rem;
+      padding-bottom: 2px; border-bottom: 1px solid rgba(255,255,255,0.4);
+      transition: border-color 0.2s, gap 0.2s;
+    }
+    .link-arrow:hover { border-color: rgba(255,255,255,0.9); gap: 12px; }
+    .link-arrow svg { width: 15px; height: 15px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+
+    .hero-stats { display: flex; flex-wrap: wrap; gap: 0; border-top: 1px solid rgba(255,255,255,0.18); padding-top: 32px; }
+    .stat-item { display: flex; flex-direction: column; padding: 0 36px 0 0; margin-right: 36px; border-right: 1px solid rgba(255,255,255,0.18); }
+    .stat-item:last-child { border-right: none; margin-right: 0; padding-right: 0; }
+    .stat-num { font-family: 'Poppins', sans-serif; font-size: 2.4rem; font-weight: 700; color: var(--white); line-height: 1; letter-spacing: -0.01em; }
+    .stat-num span { color: var(--olive-light); }
+    .stat-label { font-size: 0.76rem; color: rgba(255,255,255,0.62); margin-top: 6px; max-width: 170px; }
+
+    /* ===== SEÇÕES ===== */
+    section { padding: 128px 0; }
+
+    .eyebrow {
+      display: flex; align-items: center; gap: 12px; width: max-content;
+      font-size: 0.76rem; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase;
+      color: var(--olive); margin-bottom: 20px;
+    }
+    .eyebrow::before { content: ''; width: 28px; height: 1px; background: var(--olive); }
+    .section-header.center .eyebrow { margin-left: auto; margin-right: auto; }
+
+    .section-title {
+      font-family: 'Poppins', sans-serif;
+      font-size: clamp(1.9rem, 3.8vw, 3rem);
+      font-weight: 700; color: var(--gray-900); line-height: 1.15; margin-bottom: 22px;
+      letter-spacing: -0.015em;
+    }
+    .section-title em { font-style: italic; font-family: 'Fraunces', serif; font-weight: 400; color: var(--olive); }
+
+    .section-subtitle { font-size: 1.02rem; color: var(--text-light); max-width: 620px; line-height: 1.8; }
+    .section-header { margin-bottom: 72px; }
+    .section-header.center { text-align: center; }
+    .section-header.center .section-subtitle { margin: 0 auto; }
+
+    .lead-text { font-size: 1.12rem; color: var(--text); max-width: 780px; line-height: 1.85; margin: 0 auto; }
+
+    /* ===== NÚMEROS EM CHIP ===== */
+    .num-chip {
+      display: inline-flex; align-items: center; justify-content: center;
+      min-width: 38px; height: 38px; padding: 0 8px; flex-shrink: 0;
+      background: var(--olive); color: var(--white);
+      font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 0.85rem;
+      border-radius: 8px;
+    }
+
+    /* ===== MARCAS (lista numerada) ===== */
+    .diff-list { display: flex; flex-direction: column; gap: 14px; }
+    .diff-row {
+      display: grid; grid-template-columns: 90px 1fr 1.6fr; gap: 32px; align-items: center;
+      padding: 26px 28px; border: 1px solid var(--line); border-radius: 12px; background: var(--white);
+      transition: background 0.2s, box-shadow 0.2s, border-color 0.2s;
+    }
+    .diff-row:hover { background: var(--gray-50); border-color: var(--gray-200); box-shadow: 0 6px 20px rgba(11,60,93,0.08); }
+    .diff-row h4 { font-size: 1.1rem; font-weight: 700; color: var(--gray-900); }
+    .diff-row p { font-size: 0.92rem; color: var(--text-light); line-height: 1.7; }
+
+    /* ===== SOBRE / DR. ERLEI ===== */
+    .sobre-grid { display: grid; grid-template-columns: 0.85fr 1.15fr; gap: 88px; align-items: center; margin-top: 88px; }
+    .sobre-img-wrap { position: relative; }
+    .sobre-img-wrap img { width: 100%; height: 460px; object-fit: cover; object-position: top; display: block; border-radius: 4px; }
+    .sobre-caption { display: flex; align-items: baseline; gap: 14px; margin-top: 18px; }
+    .sobre-caption strong { font-family: 'Fraunces', serif; font-style: italic; font-size: 1.6rem; color: var(--olive); }
+    .sobre-caption span { font-size: 0.82rem; color: var(--text-light); }
+    .sobre-text .eyebrow { color: var(--olive); }
+    .sobre-text p { margin-bottom: 20px; color: var(--text-light); }
+    .sobre-text strong { color: var(--text); }
+
+    /* ===== MISSÃO E VISÃO ===== */
+    .missao-visao { background: var(--dark); }
+    .missao-visao .eyebrow { color: var(--olive-light); }
+    .missao-visao .eyebrow::before { background: var(--olive-light); }
+    .missao-visao .section-title { color: var(--white); }
+    .missao-visao .section-subtitle { color: rgba(255,255,255,0.62); }
+
+    .mv-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+    .mv-card { padding: 40px 44px; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.10); border-radius: 12px; transition: background 0.25s, border-color 0.25s; }
+    .mv-card:hover { background: rgba(255,255,255,0.07); border-color: rgba(255,255,255,0.18); }
+    .mv-num { display: flex; align-items: center; gap: 14px; font-family: 'Poppins', sans-serif; font-size: 0.78rem; font-weight: 700; color: rgba(255,255,255,0.7); letter-spacing: 0.10em; text-transform: uppercase; margin-bottom: 22px; }
+    .mv-card h3 { font-family: 'Poppins', sans-serif; font-size: 1.4rem; font-weight: 700; color: var(--white); margin-bottom: 14px; }
+    .mv-card p { font-size: 0.96rem; color: rgba(255,255,255,0.6); line-height: 1.8; }
+
+    /* ===== PILARES / SOLUÇÕES ===== */
+    .pilares-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; }
+    .servico-panel { padding: 44px 48px; background: var(--white); border: 1px solid var(--line); border-radius: 12px; box-shadow: 0 4px 24px rgba(11,60,93,0.06); transition: transform 0.3s cubic-bezier(0.22,1,0.36,1), box-shadow 0.3s, border-color 0.3s; }
+    .servico-panel:hover { transform: translateY(-6px); box-shadow: 0 16px 40px rgba(11,60,93,0.12); border-color: var(--gray-200); }
+    .servico-panel .tick { transition: transform 0.25s cubic-bezier(0.22,1,0.36,1), color 0.25s; }
+    .servico-panel:hover .tick { color: var(--teal); }
+    .servico-num { margin-bottom: 22px; }
+    .servico-panel h3 { font-family: 'Poppins', sans-serif; font-size: 1.4rem; font-weight: 700; color: var(--gray-900); margin-bottom: 14px; }
+    .servico-panel > p { font-size: 0.96rem; color: var(--text-light); line-height: 1.75; margin-bottom: 32px; }
+
+    .servico-list { display: flex; flex-direction: column; }
+    .servico-list li { display: flex; gap: 16px; align-items: flex-start; padding: 18px 0; border-top: 1px solid var(--gray-100); }
+    .servico-list li:last-child { border-bottom: 1px solid var(--gray-100); }
+    .servico-list .tick { flex-shrink: 0; width: 15px; height: 15px; margin-top: 3px; color: var(--olive); }
+    .servico-list span { font-size: 0.9rem; color: var(--text-light); line-height: 1.6; }
+
+    /* ===== FAIXA NACIONAL ===== */
+    .nacional { background: var(--teal-dark); position: relative; overflow: hidden; }
+    .nacional::before { content: ''; position: absolute; inset: 0; background: linear-gradient(135deg, rgba(255,255,255,0.05) 0%, transparent 60%); }
+    .nacional .container { position: relative; z-index: 1; text-align: center; }
+    .nacional .eyebrow { color: var(--olive-light); margin: 0 auto 20px; }
+    .nacional .eyebrow::before { background: var(--olive-light); }
+    .nacional h2 { font-family: 'Poppins', sans-serif; font-size: clamp(1.7rem, 3.4vw, 2.6rem); font-weight: 700; color: var(--white); margin-bottom: 24px; max-width: 760px; margin-left: auto; margin-right: auto; letter-spacing: -0.01em; }
+    .nacional h2 em { font-style: italic; font-family: 'Fraunces', serif; font-weight: 400; color: var(--olive-light); }
+    .nacional p { font-size: 1rem; color: rgba(255,255,255,0.72); max-width: 700px; margin: 0 auto 40px; line-height: 1.85; }
+    .nacional-chips { display: flex; flex-wrap: wrap; justify-content: center; gap: 14px; margin-bottom: 44px; }
+    .nacional-chip { padding: 10px 22px; border: 1px solid rgba(255,255,255,0.22); border-radius: 30px; font-size: 0.82rem; color: rgba(255,255,255,0.85); font-weight: 500; transition: background 0.25s, border-color 0.25s, transform 0.25s; }
+    .nacional-chip:hover { background: rgba(255,255,255,0.08); border-color: rgba(255,255,255,0.4); transform: translateY(-2px); }
+    .btn-outline-light {
+      display: inline-flex; align-items: center; gap: 10px;
+      background: var(--white); color: var(--teal-dark);
+      padding: 16px 34px; border-radius: 8px;
+      font-weight: 700; font-size: 0.92rem;
+      transition: background 0.2s, opacity 0.2s;
+    }
+    .btn-outline-light:hover { opacity: 0.88; }
+
+    /* ===== PARA EMPRESAS (jornadas) ===== */
+    .jornada-row {
+      display: grid; grid-template-columns: 70px 1fr auto; gap: 28px; align-items: center;
+      padding: 30px 30px; border: 1px solid var(--line); border-radius: 12px; background: var(--white);
+      transition: background 0.2s, box-shadow 0.2s, border-color 0.2s;
+    }
+    .jornada-row + .jornada-row { margin-top: 14px; }
+    .jornada-row { transition: background 0.25s, box-shadow 0.25s, border-color 0.25s, transform 0.25s; }
+    .jornada-row:hover { background: var(--gray-50); border-color: var(--gray-200); box-shadow: 0 6px 20px rgba(11,60,93,0.08); transform: translateX(4px); }
+    .jornada-row h4 { font-size: 1.08rem; font-weight: 700; color: var(--gray-900); margin-bottom: 6px; }
+    .jornada-row p { font-size: 0.9rem; color: var(--text-light); line-height: 1.7; }
+    .jornada-cta { flex-shrink: 0; color: var(--teal); }
+    .jornada-cta svg { width: 15px; height: 15px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+    .jornada-highlight { font-family: 'Fraunces', serif; font-style: italic; color: var(--teal); font-size: 1.02rem; display: block; margin-bottom: 8px; }
+
+    /* ===== CONTATO ===== */
+    .contato-grid { display: grid; grid-template-columns: 0.8fr 1.2fr; gap: 88px; align-items: start; }
+    .contato-info-list { display: flex; flex-direction: column; margin-top: 40px; border-top: 1px solid var(--line); }
+    .contato-item { display: flex; gap: 20px; align-items: flex-start; padding: 22px 0; border-bottom: 1px solid var(--line); }
+    .contato-icon { flex-shrink: 0; width: 20px; height: 20px; margin-top: 2px; color: var(--olive); }
+    .contato-icon svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
+    .contato-item-text strong { display: block; font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--gray-600); margin-bottom: 5px; }
+    .contato-item-text span, .contato-item-text a { font-size: 0.98rem; color: var(--text); line-height: 1.5; }
+    .contato-item-text a:hover { color: var(--olive); }
+
+    .contato-form { background: var(--white); border: 1px solid var(--line); padding: 48px; border-radius: 12px; box-shadow: 0 8px 30px rgba(11,60,93,0.06); }
+    .contato-form h3 { font-family: 'Poppins', sans-serif; font-size: 1.3rem; font-weight: 700; color: var(--gray-900); margin-bottom: 8px; }
+    .contato-form > p { font-size: 0.9rem; color: var(--text-light); margin-bottom: 32px; }
+
+    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+    .form-group { display: flex; flex-direction: column; gap: 8px; margin-bottom: 20px; }
+    .form-group label { font-size: 0.76rem; font-weight: 600; letter-spacing: 0.03em; color: var(--gray-800); }
+    .form-group input, .form-group select, .form-group textarea {
+      padding: 12px 0; border: none; border-bottom: 1.5px solid var(--gray-200); background: transparent;
+      font-family: 'Inter', sans-serif; font-size: 0.95rem; color: var(--text);
+      transition: border-color 0.2s; outline: none; width: 100%; border-radius: 0;
+    }
+    .form-group input:focus, .form-group select:focus, .form-group textarea:focus { border-color: var(--olive); }
+    .form-group textarea { resize: vertical; min-height: 80px; }
+
+    .consent-group { display: flex; align-items: flex-start; gap: 10px; margin: 8px 0 22px; }
+    .consent-group input { width: auto; margin-top: 3px; accent-color: var(--teal); }
+    .consent-group label { font-size: 0.8rem; color: var(--text-light); line-height: 1.6; font-weight: 400; letter-spacing: normal; }
+
+    .btn-submit {
+      width: 100%; padding: 16px; background: var(--teal); color: var(--white);
+      border: none; border-radius: 8px; font-family: 'Inter', sans-serif;
+      font-size: 0.95rem; font-weight: 600; cursor: pointer;
+      transition: background 0.2s;
+      display: flex; align-items: center; justify-content: center; gap: 10px;
+      margin-top: 8px;
+    }
+    .btn-submit:hover { background: var(--teal-dark); }
+    .btn-submit svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+
+    .hp-field { position: absolute; left: -9999px; width: 1px; height: 1px; opacity: 0; }
+    .form-error { display: none; font-size: 0.85rem; color: #B3261E; margin: -6px 0 16px; }
+    .form-error.visible { display: block; }
+    .btn-submit[disabled] { opacity: 0.6; cursor: not-allowed; }
+
+    .form-success { display: none; text-align: center; padding: 40px 10px; }
+    .form-success.visible { display: block; }
+    .form-success svg { width: 44px; height: 44px; color: var(--teal); margin: 0 auto 20px; }
+    .form-success h4 { font-family: 'Poppins', sans-serif; font-size: 1.2rem; color: var(--gray-900); margin-bottom: 10px; }
+    .form-success p { font-size: 0.92rem; color: var(--text-light); line-height: 1.7; }
+
+    /* ===== FOOTER ===== */
+    footer { background: var(--dark); color: rgba(255,255,255,0.62); padding: 88px 0 0; }
+    .footer-grid { display: grid; grid-template-columns: 1.6fr 1fr 1.2fr; gap: 40px; padding-bottom: 56px; border-bottom: 1px solid rgba(255,255,255,0.10); }
+    .footer-brand .footer-logo { display: inline-flex; align-items: baseline; gap: 10px; margin-bottom: 20px; }
+    .footer-brand .footer-logo strong { font-family: 'Poppins', sans-serif; font-size: 1.1rem; font-weight: 800; color: var(--white); }
+    .footer-brand p { font-size: 0.875rem; line-height: 1.8; max-width: 300px; margin-bottom: 24px; color: rgba(255,255,255,0.48); }
+    .footer-col h4 { font-size: 0.68rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.12em; color: rgba(255,255,255,0.85); margin-bottom: 22px; }
+    .footer-col ul { display: flex; flex-direction: column; gap: 13px; min-width: 0; }
+    .footer-col ul li a { font-size: 0.875rem; color: rgba(255,255,255,0.50); transition: color 0.2s; min-width: 0; white-space: normal; overflow-wrap: break-word; }
+    .footer-col ul li a:hover { color: var(--olive-light); }
+    .footer-contact-item { display: flex; gap: 10px; align-items: flex-start; margin-bottom: 14px; }
+    .footer-contact-item svg { width: 14px; height: 14px; color: var(--olive-light); flex-shrink: 0; margin-top: 3px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+    .footer-contact-item span, .footer-contact-item a { font-size: 0.83rem; color: rgba(255,255,255,0.5); line-height: 1.6; }
+    .footer-contact-item a:hover { color: var(--olive-light); }
+    .footer-bottom { padding: 24px 0; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px; font-size: 0.76rem; color: rgba(255,255,255,0.32); }
+
+    /* ===== VOLTAR AO TOPO ===== */
+    .back-to-top {
+      position: fixed; bottom: 28px; right: 28px; z-index: 8999;
+      width: 42px; height: 42px; border-radius: 50%;
+      background: var(--teal); border: none;
+      display: flex; align-items: center; justify-content: center;
+      opacity: 0; visibility: hidden; transform: translateY(8px);
+      transition: opacity 0.25s, transform 0.25s, visibility 0.25s, background 0.2s;
+    }
+    .back-to-top.visible { opacity: 1; visibility: visible; transform: translateY(0); }
+    .back-to-top:hover { background: var(--olive); }
+    .back-to-top svg { width: 16px; height: 16px; color: var(--white); fill: none; stroke: currentColor; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+
+    /* ===== EFEITOS ===== */
+    @keyframes heroFadeUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: none; } }
+    .hero-eyebrow    { animation: heroFadeUp 0.7s cubic-bezier(0.22,1,0.36,1) 0.15s both; }
+    .hero-content h1 { animation: heroFadeUp 0.75s cubic-bezier(0.22,1,0.36,1) 0.28s both; }
+    .hero-slogan     { animation: heroFadeUp 0.75s cubic-bezier(0.22,1,0.36,1) 0.40s both; }
+    .hero-content h2 { animation: heroFadeUp 0.75s cubic-bezier(0.22,1,0.36,1) 0.50s both; }
+    .hero-actions    { animation: heroFadeUp 0.75s cubic-bezier(0.22,1,0.36,1) 0.60s both; }
+    .hero-stats      { animation: heroFadeUp 0.75s cubic-bezier(0.22,1,0.36,1) 0.70s both; }
+
+    .reveal-up    { opacity: 0; transform: translateY(24px); transition: opacity 0.8s cubic-bezier(0.22,1,0.36,1), transform 0.8s cubic-bezier(0.22,1,0.36,1); }
+    .reveal-left  { opacity: 0; transform: translateX(-28px); transition: opacity 0.8s cubic-bezier(0.22,1,0.36,1), transform 0.8s cubic-bezier(0.22,1,0.36,1); }
+    .reveal-right { opacity: 0; transform: translateX(28px);  transition: opacity 0.8s cubic-bezier(0.22,1,0.36,1), transform 0.8s cubic-bezier(0.22,1,0.36,1); }
+    .revealed { opacity: 1 !important; transform: none; }
+    .delay-1 { transition-delay: 0.08s !important; }
+    .delay-2 { transition-delay: 0.16s !important; }
+    .delay-3 { transition-delay: 0.24s !important; }
+
+    /* ===== RESPONSIVIDADE ===== */
+    @media (max-width: 1024px) {
+      section { padding: 96px 0; }
+      .sobre-grid { grid-template-columns: 1fr; gap: 48px; }
+      .contato-grid { grid-template-columns: 1fr; gap: 48px; }
+      .pilares-grid { grid-template-columns: 1fr; }
+      .footer-grid { grid-template-columns: 1fr 1fr; gap: 32px; }
+      .footer-brand { grid-column: 1 / -1; }
+      .hero, .nacional { background-attachment: scroll; }
+    }
+
+    @media (max-width: 1240px) {
+      nav { display: none; }
+      .menu-toggle { display: flex; }
+    }
+
+    @media (max-width: 900px) {
+      .mv-grid { grid-template-columns: 1fr; }
+      .diff-row { grid-template-columns: 50px 1fr; row-gap: 6px; column-gap: 20px; align-items: start; }
+      .diff-row .num-chip { grid-row: 1 / 3; }
+      .diff-row p { grid-column: 2 / -1; }
+      .jornada-row { grid-template-columns: 50px 1fr; row-gap: 10px; column-gap: 20px; align-items: start; }
+      .jornada-row .num-chip { grid-row: 1 / 3; }
+      .jornada-row > div { grid-column: 2; }
+      .jornada-row .jornada-cta { grid-column: 2; justify-self: start; margin-top: 4px; }
+      .form-row { grid-template-columns: 1fr; }
+    }
+
+    @media (max-width: 640px) {
+      .header-inner { height: 72px; }
+      .logo-text strong { font-size: 1rem; }
+      .mobile-nav { top: 72px; padding: 8px 20px 20px; }
+      .hero { padding-top: 72px; }
+      .hero-content { padding: 40px 0 56px; }
+      .hero-actions { flex-direction: column; align-items: flex-start; gap: 20px; }
+      .hero-stats { flex-direction: column; gap: 20px; }
+      .stat-item { border-right: none; margin-right: 0; padding-right: 0; padding-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.18); }
+      .stat-item:last-child { border-bottom: none; padding-bottom: 0; }
+      .contato-form { padding: 32px 24px; }
+      .footer-grid { grid-template-columns: 1fr; gap: 40px; }
+      .back-to-top { bottom: 20px; right: 20px; width: 40px; height: 40px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header id="header">
+    <div class="container">
+      <div class="header-inner">
+        <a href="#inicio" class="logo-link" aria-label="IEAPM - Início">
+          <span class="logo-text"><strong>IEAPM</strong><span>Instituto Erlei Andrade</span></span>
+        </a>
+        <nav aria-label="Menu principal">
+          <a href="#inicio">Início</a>
+          <a href="#instituto">O Instituto</a>
+          <a href="#solucoes">Soluções</a>
+          <a href="#empresas">Para Empresas</a>
+          <a href="#contato">Contato</a>
+          <a href="index.html" class="nav-modea">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+            Clínica MODEA
+          </a>
+          <a href="#contato" class="btn-nav">Solicite uma proposta</a>
+        </nav>
+        <button class="menu-toggle" aria-label="Abrir menu" id="menuToggle" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- MENU MOBILE -->
+  <div class="mobile-nav" id="mobileNav" aria-label="Menu mobile">
+    <a href="#inicio" class="mobile-link">Início</a>
+    <a href="#instituto" class="mobile-link">O Instituto</a>
+    <a href="#solucoes" class="mobile-link">Soluções</a>
+    <a href="#empresas" class="mobile-link">Para Empresas</a>
+    <a href="#contato" class="mobile-link">Contato</a>
+    <a href="index.html" class="nav-modea mobile-link">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+      Clínica MODEA
+    </a>
+    <a href="#contato" class="btn-nav mobile-link">Solicite uma proposta</a>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero" id="inicio" aria-label="Início">
+    <div class="container">
+      <div class="hero-content">
+        <span class="hero-eyebrow">Perícias Médicas · Gestão Ocupacional · Ergonomia · Tecnologia</span>
+        <h1>IEAPM — Instituto Erlei Andrade</h1>
+        <p class="hero-slogan">"Experiência que atravessa décadas. Soluções preparadas para o futuro."</p>
+        <h2>Gestão ocupacional, perícias médicas e tecnologia integradas à estratégia da sua empresa, com atendimento em todo o Brasil.</h2>
+        <div class="hero-actions">
+          <a href="#contato" class="btn-primary">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+            Solicite uma proposta
+          </a>
+          <a href="#solucoes" class="link-arrow">
+            Conheça nossas soluções
+            <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat-item">
+            <span class="stat-num">30<span>+</span></span>
+            <span class="stat-label">Anos de Gestão Ocupacional pela Clínica MODEA</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-num">5<span>+</span></span>
+            <span class="stat-label">Anos de tecnologia própria com o E Ocupacional</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-num">300<span>+</span></span>
+            <span class="stat-label">Empresas atendidas em todo o Brasil</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- O INSTITUTO -->
+  <section class="instituto" id="instituto" aria-label="O Instituto">
+    <div class="container">
+      <div class="section-header center">
+        <span class="eyebrow">O Instituto</span>
+        <h2 class="section-title">Experiência que se transforma em <em>solução</em></h2>
+      </div>
+      <p class="lead-text">O IEAPM reúne décadas de experiência médica e médico-pericial, aproximadamente 30 anos de operação em Gestão Ocupacional e tecnologia própria aplicada à Saúde Ocupacional. Uma estrutura criada para oferecer soluções integradas, combinando conhecimento técnico, capacidade operacional e tecnologia — organizando e ampliando uma operação que já existe, e não apresentando uma empresa recém-criada.</p>
+
+      <div class="diff-list" style="margin-top:72px;">
+        <div class="diff-row reveal-up">
+          <span class="num-chip">01</span>
+          <h4>IEAPM</h4>
+          <p>Marca institucional e principal autoridade do ecossistema, liderando a integração entre perícia, gestão ocupacional, ergonomia e tecnologia.</p>
+        </div>
+        <div class="diff-row reveal-up">
+          <span class="num-chip">02</span>
+          <h4>Clínica MODEA</h4>
+          <p>Braço histórico e operacional de Gestão Ocupacional. Opera em Barra Mansa/RJ há aproximadamente 30 anos, com estrutura completa e exames complementares.</p>
+        </div>
+        <div class="diff-row reveal-up">
+          <span class="num-chip">03</span>
+          <h4>E Ocupacional</h4>
+          <p>Braço tecnológico do ecossistema. Plataforma própria, já em funcionamento há aproximadamente 5 anos, aplicada à organização e gestão da Saúde Ocupacional.</p>
+        </div>
+        <div class="diff-row reveal-up">
+          <span class="num-chip">04</span>
+          <h4>Ergonomia &amp; Gestão de Riscos</h4>
+          <p>Unidade especializada, integrada às áreas médica, ocupacional e pericial do IEAPM.</p>
+        </div>
+      </div>
+
+      <div class="sobre-grid">
+        <div class="reveal-left">
+          <div class="sobre-img-wrap">
+            <img src="assets/img/sobre-img.jpg" alt="Dr. Erlei Oliveira Andrade, fundador do IEAPM, em seu consultório" loading="lazy">
+          </div>
+          <div class="sobre-caption">
+            <strong>40</strong>
+            <span>Anos de atuação profissional do Dr. Erlei Andrade</span>
+          </div>
+        </div>
+        <div class="sobre-text reveal-right">
+          <span class="eyebrow">Dr. Erlei Andrade</span>
+          <h2 class="section-title">Autoridade profissional que sustenta uma <em>instituição</em></h2>
+          <p>Médico do Trabalho, Assistente Técnico Médico Pericial, Consultor em Ergonomia e Advogado na assistência ao Trabalhador, o Dr. Erlei Oliveira Andrade acumula mais de 40 anos de atuação e é a origem técnica de todo o ecossistema IEAPM.</p>
+          <p>Mas o IEAPM vai além da figura individual: foi construído como instituição — com estrutura própria, tecnologia própria e rede de credenciados — capaz de sustentar e crescer o mesmo padrão de rigor técnico-jurídico em qualquer empresa do Brasil.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROPÓSITO, MISSÃO E VISÃO -->
+  <section class="missao-visao" aria-label="Propósito, Missão e Visão">
+    <div class="container">
+      <div class="section-header center">
+        <span class="eyebrow">Propósito, Missão e Visão</span>
+        <h2 class="section-title">O que guia o <em>ecossistema IEAPM</em></h2>
+      </div>
+      <div class="mv-grid">
+        <div class="mv-card reveal-up">
+          <span class="mv-num"><span class="num-chip">01</span> Missão</span>
+          <h3>Gestão integrada, em qualquer lugar</h3>
+          <p>Entregar, de forma integrada, Perícias Médicas, Gestão Ocupacional, Ergonomia e Tecnologia que sustentem a conformidade legal e a estratégia das empresas em todo o Brasil.</p>
+        </div>
+        <div class="mv-card reveal-up delay-1">
+          <span class="mv-num"><span class="num-chip">02</span> Visão</span>
+          <h3>Referência nacional</h3>
+          <p>Ser reconhecido nacionalmente como o ecossistema de referência em gestão ocupacional, perícias médicas, ergonomia e tecnologia aplicada à saúde do trabalhador.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOLUÇÕES -->
+  <section class="solucoes" id="solucoes" aria-label="Soluções">
+    <div class="container">
+      <div class="section-header center">
+        <span class="eyebrow">Soluções</span>
+        <h2 class="section-title">Quatro pilares, uma <em>gestão integrada</em></h2>
+        <p class="section-subtitle">Perícias, saúde ocupacional, ergonomia e tecnologia — cada frente resolvida por quem já opera nesse ecossistema há décadas.</p>
+      </div>
+      <div class="pilares-grid">
+        <div class="servico-panel reveal-left">
+          <span class="servico-num num-chip">01</span>
+          <h3>Perícias Médicas &amp; Assistência Técnica</h3>
+          <p>Suporte técnico especializado para empresas e departamentos jurídicos em processos que exigem análise médica.</p>
+          <ul class="servico-list">
+            <li><svg class="tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><span>Assistência técnica médica em processos judiciais</span></li>
+            <li><svg class="tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><span>Análise médico-pericial e documental, com acompanhamento técnico</span></li>
+            <li><svg class="tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><span>Pareceres e manifestações técnicas dentro das competências aplicáveis</span></li>
+            <li><svg class="tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><span>Análise de capacidade laboral, nexo causal/concausal e elementos ergonômicos, quando aplicáveis</span></li>
+          </ul>
+        </div>
+        <div class="servico-panel reveal-right">
+          <span class="servico-num num-chip">02</span>
+          <h3>Gestão Ocupacional | Clínica MODEA</h3>
+          <p>Operação completa de Saúde Ocupacional, com estrutura própria e gestão centralizada para empresas em diferentes localidades.</p>
+          <ul class="servico-list">
+            <li><svg class="tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><span>ASO e exames admissionais, periódicos, retorno ao trabalho, mudança de risco e demissionais</span></li>
+            <li><svg class="tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><span>Exames complementares conforme indicação aplicável</span></li>
+            <li><svg class="tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><span>Organização e acompanhamento das rotinas ocupacionais</span></li>
+            <li><svg class="tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><span>Gestão centralizada, com apoio de rede credenciada</span></li>
+          </ul>
+        </div>
+        <div class="servico-panel reveal-left">
+          <span class="servico-num num-chip">03</span>
+          <h3>Ergonomia &amp; Gestão de Riscos</h3>
+          <p>Avaliações técnicas integradas à Medicina do Trabalho e às Perícias, para identificar e tratar riscos na origem.</p>
+          <ul class="servico-list">
+            <li><svg class="tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><span>Avaliações ergonômicas</span></li>
+            <li><svg class="tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><span>Análise Ergonômica do Trabalho (AET)</span></li>
+            <li><svg class="tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><span>Estudos de postos, atividades e tarefas</span></li>
+            <li><svg class="tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><span>Identificação de fatores de risco e recomendações técnicas</span></li>
+          </ul>
+        </div>
+        <div class="servico-panel reveal-right">
+          <span class="servico-num num-chip">04</span>
+          <h3>Tecnologia | E Ocupacional</h3>
+          <p>Plataforma própria, em operação há aproximadamente 5 anos, para organizar e gerenciar a informação ocupacional da sua empresa.</p>
+          <ul class="servico-list">
+            <li><svg class="tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><span>Centralização e organização de informações ocupacionais</span></li>
+            <li><svg class="tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><span>Acompanhamento de rotinas e apoio ao gerenciamento empresarial</span></li>
+            <li><svg class="tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg><span>Suporte a operações geograficamente distribuídas</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ATUAÇÃO NACIONAL -->
+  <section class="nacional" aria-label="Atuação nacional">
+    <div class="container">
+      <span class="eyebrow">Atuação nacional</span>
+      <h2>Sua empresa em diferentes cidades. Uma <em>gestão integrada</em>.</h2>
+      <p>Gestão centralizada, tecnologia própria, estrutura própria e rede de credenciados trabalham juntas para que sua empresa tenha o mesmo padrão de atendimento em qualquer cidade do Brasil. Quando um procedimento exige presença física fora da nossa estrutura própria, a execução acontece por prestadores credenciados — sempre com a coordenação do IEAPM.</p>
+      <div class="nacional-chips">
+        <span class="nacional-chip">Atendimento em todo o Brasil</span>
+        <span class="nacional-chip">Gestão centralizada</span>
+        <span class="nacional-chip">Rede de credenciados</span>
+      </div>
+      <a href="#contato" class="btn-outline-light">
+        Solicite uma proposta
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+      </a>
+    </div>
+  </section>
+
+  <!-- PARA EMPRESAS -->
+  <section class="empresas" id="empresas" aria-label="Para Empresas">
+    <div class="container">
+      <div class="section-header center">
+        <span class="eyebrow">Para Empresas</span>
+        <h2 class="section-title">Uma jornada pensada para o seu tipo de <em>operação</em></h2>
+        <p class="section-subtitle">Cada perfil de empresa tem prioridades diferentes. Fale com a gente a partir da realidade da sua operação.</p>
+      </div>
+
+      <div class="jornada-row reveal-up" data-interesse="atendimento-nacional">
+        <span class="num-chip">01</span>
+        <div>
+          <h4>Redes &amp; Franquias</h4>
+          <p>Padronização de gestão ocupacional e perícias entre unidades, sem perder a identidade de cada franquia.</p>
+        </div>
+        <a href="#contato" class="link-arrow jornada-cta jornada-link" style="color:var(--teal);border-color:var(--line);">
+          Falar com um especialista
+          <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+      </div>
+      <div class="jornada-row reveal-up" data-interesse="gestao-ocupacional">
+        <span class="num-chip">02</span>
+        <div>
+          <h4>Indústrias</h4>
+          <p>PCMSO, PGR, LTCAT, exames complementares e ergonomia integrados à rotina operacional da fábrica.</p>
+        </div>
+        <a href="#contato" class="link-arrow jornada-cta jornada-link" style="color:var(--teal);border-color:var(--line);">
+          Falar com um especialista
+          <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+      </div>
+      <div class="jornada-row reveal-up" data-interesse="atendimento-nacional">
+        <span class="num-chip">03</span>
+        <div>
+          <h4>Empresas com múltiplas unidades</h4>
+          <p>Gestão centralizada com rede credenciada, para manter o mesmo padrão em cada cidade em que sua empresa atua.</p>
+        </div>
+        <a href="#contato" class="link-arrow jornada-cta jornada-link" style="color:var(--teal);border-color:var(--line);">
+          Falar com um especialista
+          <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+      </div>
+      <div class="jornada-row reveal-up" data-interesse="e-ocupacional">
+        <span class="num-chip">04</span>
+        <div>
+          <h4>RH &amp; SESMT</h4>
+          <p>Retaguarda técnica e tecnológica para o time interno de Saúde e Segurança do Trabalho acompanhar tudo em um só lugar.</p>
+        </div>
+        <a href="#contato" class="link-arrow jornada-cta jornada-link" style="color:var(--teal);border-color:var(--line);">
+          Falar com um especialista
+          <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+      </div>
+      <div class="jornada-row reveal-up" data-interesse="pericias">
+        <span class="num-chip">05</span>
+        <div>
+          <span class="jornada-highlight">Quando uma demanda chega ao Jurídico, a análise médica pode ser decisiva.</span>
+          <h4>Jurídicos &amp; Escritórios de Advocacia</h4>
+          <p>Assistência Técnica Médico-Pericial, análise documental e acompanhamento técnico para embasar a estratégia processual.</p>
+        </div>
+        <a href="#contato" class="link-arrow jornada-cta jornada-link" style="color:var(--teal);border-color:var(--line);">
+          Falar com um especialista
+          <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section class="contato" id="contato" aria-label="Contato">
+    <div class="container">
+      <div class="contato-grid">
+        <div class="contato-info">
+          <span class="eyebrow">Contato</span>
+          <h2 class="section-title">Solicite uma <em>proposta</em> para sua empresa</h2>
+          <p class="section-subtitle">Preencha o formulário e nosso time entra em contato para entender sua operação e apresentar a solução adequada.</p>
+          <div class="contato-info-list">
+            <div class="contato-item">
+              <div class="contato-icon"><svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+              <div class="contato-item-text"><strong>Sede operacional</strong><span>Rua José Alves Caldeira, 37A — Barra Mansa/RJ</span></div>
+            </div>
+            <div class="contato-item">
+              <div class="contato-icon"><svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
+              <div class="contato-item-text"><strong>E-mail</strong><span>contato@ieapm.com.br</span></div>
+            </div>
+            <div class="contato-item">
+              <div class="contato-icon"><svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+              <div class="contato-item-text"><strong>Abrangência</strong><span>Atendimento em todo o Brasil, com gestão centralizada</span></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contato-form">
+          <form id="contactForm">
+            <h3>Formulário comercial</h3>
+            <p>Campos marcados com * são obrigatórios.</p>
+            <input type="text" name="website" class="hp-field" tabindex="-1" autocomplete="off" aria-hidden="true">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="nome">Nome *</label>
+                <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+              </div>
+              <div class="form-group">
+                <label for="cargo">Cargo</label>
+                <input type="text" id="cargo" name="cargo" placeholder="Seu cargo na empresa">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="empresa">Empresa *</label>
+                <input type="text" id="empresa" name="empresa" placeholder="Razão social" required>
+              </div>
+              <div class="form-group">
+                <label for="cnpj">CNPJ</label>
+                <input type="text" id="cnpj" name="cnpj" placeholder="00.000.000/0000-00">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="telefone">Telefone / WhatsApp *</label>
+                <input type="tel" id="telefone" name="telefone" placeholder="(24) 90000-0000" required>
+              </div>
+              <div class="form-group">
+                <label for="email">E-mail corporativo *</label>
+                <input type="email" id="email" name="email" placeholder="voce@empresa.com.br" required>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="colaboradores">Número de colaboradores</label>
+                <input type="text" id="colaboradores" name="colaboradores" placeholder="Ex: 120">
+              </div>
+              <div class="form-group">
+                <label for="unidades">Quantidade de unidades</label>
+                <input type="text" id="unidades" name="unidades" placeholder="Ex: 3">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="cidades">Cidades/Estados de atuação</label>
+              <input type="text" id="cidades" name="cidades" placeholder="Ex: Barra Mansa/RJ, Volta Redonda/RJ">
+            </div>
+            <div class="form-group">
+              <label for="interesse">Interesse *</label>
+              <select id="interesse" name="interesse" required>
+                <option value="">Selecione uma opção</option>
+                <option value="pericias">Perícias Médicas</option>
+                <option value="gestao-ocupacional">Gestão Ocupacional</option>
+                <option value="ergonomia">Ergonomia</option>
+                <option value="e-ocupacional">E Ocupacional</option>
+                <option value="atendimento-nacional">Atendimento Nacional</option>
+                <option value="solucao-integrada">Solução Integrada</option>
+                <option value="orientacao">Preciso de orientação</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="mensagem">Conte brevemente o que sua empresa precisa</label>
+              <textarea id="mensagem" name="mensagem" placeholder="Como podemos te ajudar?"></textarea>
+            </div>
+            <div class="consent-group">
+              <input type="checkbox" id="consentimento" name="consentimento" required>
+              <label for="consentimento">Autorizo o tratamento dos meus dados para contato comercial, em conformidade com a LGPD.</label>
+            </div>
+            <p class="form-error" id="formError"></p>
+            <button type="submit" class="btn-submit">
+              <svg viewBox="0 0 24 24"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+              Solicitar contato
+            </button>
+          </form>
+          <div class="form-success" id="formSuccess">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            <h4>Solicitação recebida</h4>
+            <p>Nosso time vai analisar as informações da sua empresa e retornar em breve.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo"><strong>IEAPM</strong></div>
+          <p>Instituto Erlei Andrade — ecossistema nacional em Perícias Médicas, Gestão Ocupacional, Ergonomia e Tecnologia, reunindo Clínica MODEA e E Ocupacional.</p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navegação</h4>
+          <ul>
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#instituto">O Instituto</a></li>
+            <li><a href="#solucoes">Soluções</a></li>
+            <li><a href="#empresas">Para Empresas</a></li>
+            <li><a href="#contato">Contato</a></li>
+            <li><a href="index.html">Clínica MODEA</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contato</h4>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <span>contato@ieapm.com.br</span>
+          </div>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span>Rua José Alves Caldeira, 37A — Barra Mansa/RJ</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>© 2026 IEAPM — Instituto Erlei Andrade</span>
+        <span>Desenvolvido por <strong style="color:rgba(255,255,255,0.55)">MonteSite</strong></span>
+      </div>
+    </div>
+
+    <!-- Rodapé MonteSite - Atualização Automática -->
+    <div id="montesite-footer-badge"></div>
+    <script src="https://vaabpicspdbolvutnscp.supabase.co/functions/v1/get-footer-iframe"></script>
+  </footer>
+
+  <!-- VOLTAR AO TOPO -->
+  <button type="button" class="back-to-top" id="backToTop" aria-label="Voltar ao topo">
+    <svg viewBox="0 0 24 24"><line x1="12" y1="19" x2="12" y2="5"/><polyline points="5 12 12 5 19 12"/></svg>
+  </button>
+
+  <script>
+    document.body.classList.add('loaded');
+
+    const backToTop = document.getElementById('backToTop');
+    window.addEventListener('scroll', () => {
+      backToTop.classList.toggle('visible', window.scrollY > 700);
+    }, { passive: true });
+    backToTop.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+
+    const header = document.getElementById('header');
+    window.addEventListener('scroll', () => {
+      header.classList.toggle('scrolled', window.scrollY > 20);
+    }, { passive: true });
+
+    const toggle = document.getElementById('menuToggle');
+    const mNav   = document.getElementById('mobileNav');
+    const spans  = toggle.querySelectorAll('span');
+    toggle.addEventListener('click', () => {
+      const open = mNav.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', open);
+      if (open) {
+        spans[0].style.cssText = 'transform:rotate(45deg) translate(5px,5px)';
+        spans[1].style.cssText = 'opacity:0;transform:scaleX(0)';
+        spans[2].style.cssText = 'transform:rotate(-45deg) translate(5px,-5px)';
+      } else {
+        spans.forEach(s => s.style.cssText = '');
+      }
+    });
+    document.querySelectorAll('.mobile-link').forEach(l => {
+      l.addEventListener('click', () => {
+        mNav.classList.remove('open');
+        spans.forEach(s => s.style.cssText = '');
+        toggle.setAttribute('aria-expanded', 'false');
+      });
+    });
+
+    // Jornadas de "Para Empresas" pré-selecionam o campo Interesse do formulário
+    document.querySelectorAll('.jornada-link').forEach(link => {
+      link.addEventListener('click', () => {
+        const interesse = link.closest('.jornada-row').dataset.interesse;
+        const select = document.getElementById('interesse');
+        if (interesse && select) select.value = interesse;
+      });
+    });
+
+    // Formulário comercial
+    const form = document.getElementById('contactForm');
+    const success = document.getElementById('formSuccess');
+    const errorEl = document.getElementById('formError');
+    const submitBtn = form.querySelector('.btn-submit');
+    form.addEventListener('submit', async function(e) {
+      e.preventDefault();
+      errorEl.classList.remove('visible');
+      submitBtn.disabled = true;
+      try {
+        const res = await fetch('enviar-ieapm.php', {
+          method: 'POST',
+          body: new FormData(form)
+        });
+        const data = await res.json();
+        if (data.sucesso) {
+          form.style.display = 'none';
+          success.classList.add('visible');
+        } else {
+          errorEl.textContent = data.mensagem || 'Não foi possível enviar sua solicitação. Tente novamente.';
+          errorEl.classList.add('visible');
+        }
+      } catch (err) {
+        errorEl.textContent = 'Não foi possível enviar sua solicitação. Verifique sua conexão e tente novamente.';
+        errorEl.classList.add('visible');
+      } finally {
+        submitBtn.disabled = false;
+      }
+    });
+
+    function countUp(el) {
+      const m = el.textContent.trim().match(/^(\d+)/);
+      if (!m || parseInt(m[1]) < 3) return;
+      const target = parseInt(m[1]);
+      const rest   = el.innerHTML.replace(/^\d+/, '');
+      const dur = 1600, t0 = performance.now();
+      function ease(t) { return 1 - Math.pow(1 - t, 4); }
+      (function tick(now) {
+        const p = Math.min((now - t0) / dur, 1);
+        el.innerHTML = Math.round(ease(p) * target) + rest;
+        if (p < 1) requestAnimationFrame(tick);
+      })(t0);
+    }
+    const numObs = new IntersectionObserver(entries => {
+      entries.forEach(e => { if (e.isIntersecting) { countUp(e.target); numObs.unobserve(e.target); } });
+    }, { threshold: 0.4 });
+    document.querySelectorAll('.stat-num').forEach(el => numObs.observe(el));
+
+    const revealConfig = [
+      { sel: '.section-header', dir: 'up' },
+      { sel: '.diff-row',       dir: 'up', stagger: true },
+      { sel: '.jornada-row',    dir: 'up', stagger: true },
+      { sel: '.footer-brand',   dir: 'up' },
+      { sel: '.footer-col',     dir: 'up', stagger: true },
+    ];
+    const delays = ['','delay-1','delay-2','delay-3'];
+    const revObs = new IntersectionObserver(entries => {
+      entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('revealed'); revObs.unobserve(e.target); } });
+    }, { threshold: 0.12 });
+    revealConfig.forEach(({ sel, dir, stagger }) => {
+      document.querySelectorAll(sel).forEach((el, i) => {
+        el.classList.add('reveal-' + dir);
+        if (stagger && delays[i % delays.length]) el.classList.add(delays[i % delays.length]);
+        revObs.observe(el);
+      });
+    });
+    document.querySelectorAll('.sobre-grid > div, .mv-card, .servico-panel, .contato-info-list, .contato-form').forEach(el => revObs.observe(el));
+
+    // Zoom sutil (ken burns) na foto do Dr. Erlei conforme a rolagem
+    (function() {
+      const wrap = document.querySelector('.sobre-img-wrap');
+      const img  = wrap ? wrap.querySelector('img') : null;
+      if (!wrap || !img || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+      img.style.transition = 'transform 0.2s linear';
+      img.style.willChange = 'transform';
+      function update() {
+        const r = wrap.getBoundingClientRect();
+        const vh = window.innerHeight;
+        const progress = 1 - Math.min(Math.max((r.top + r.height / 2) / (vh + r.height), 0), 1);
+        img.style.transform = `scale(${1 + progress * 0.1})`;
+      }
+      window.addEventListener('scroll', update, { passive: true });
+      window.addEventListener('resize', update, { passive: true });
+      update();
+    })();
+
+    (function() {
+      const secs     = document.querySelectorAll('section[id]');
+      const navLinks = document.querySelectorAll('nav a[href^="#"], .mobile-nav a[href^="#"]');
+      function setActive(id) {
+        navLinks.forEach(a => a.classList.toggle('nav-active', a.getAttribute('href') === '#' + id));
+      }
+      const obs = new IntersectionObserver(entries => {
+        entries.forEach(e => { if (e.isIntersecting) setActive(e.target.id); });
+      }, { threshold: 0.35 });
+      secs.forEach(s => obs.observe(s));
+    })();
+  </script>
+</body>
+</html>

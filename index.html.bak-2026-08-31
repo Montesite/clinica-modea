@@ -1,0 +1,1213 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Clínica Modea</title>
+  <meta name="description" content="Clínica Modea: medicina e segurança do trabalho em Barra Mansa/RJ. PCMSO, ASO, PGR, LTCAT e gestão ocupacional digital com o sistema eOcupacional, há 25 anos.">
+  <meta name="keywords" content="medicina do trabalho Barra Mansa, PCMSO, PGR, LTCAT, ASO, segurança do trabalho RJ, Clínica Modea, exame ocupacional Barra Mansa">
+  <meta name="author" content="Clínica Modea">
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+  <meta name="theme-color" content="#1C4A52">
+  <link rel="canonical" href="https://www.clinicamodea.com.br/">
+
+  <meta name="geo.region" content="BR-RJ">
+  <meta name="geo.placename" content="Barra Mansa">
+
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.clinicamodea.com.br/">
+  <meta property="og:site_name" content="Clínica Modea">
+  <meta property="og:title" content="Clínica Modea | Inteligência digital na gestão de saúde ocupacional">
+  <meta property="og:description" content="Medicina e segurança do trabalho em Barra Mansa/RJ. PCMSO, ASO, PGR, LTCAT e gestão ocupacional digital com o sistema eOcupacional, há 25 anos.">
+  <meta property="og:image" content="https://www.clinicamodea.com.br/assets/img/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale" content="pt_BR">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Clínica Modea | Inteligência digital na gestão de saúde ocupacional">
+  <meta name="twitter:description" content="Medicina e segurança do trabalho em Barra Mansa/RJ. PCMSO, ASO, PGR, LTCAT e gestão ocupacional digital, há 25 anos.">
+  <meta name="twitter:image" content="https://www.clinicamodea.com.br/assets/img/og-image.jpg">
+
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="favicon-512.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": ["MedicalClinic", "MedicalBusiness"],
+        "@id": "https://www.clinicamodea.com.br/#empresa",
+        "name": "Clínica Modea",
+        "legalName": "Medicina do Trabalho BM Ltda",
+        "description": "Clínica de medicina e segurança do trabalho em Barra Mansa/RJ, oferecendo PCMSO, ASO, PGR, LTCAT e gestão ocupacional digital através do sistema próprio eOcupacional.",
+        "url": "https://www.clinicamodea.com.br/",
+        "logo": "https://www.clinicamodea.com.br/assets/img/og-image.jpg",
+        "image": "https://www.clinicamodea.com.br/assets/img/og-image.jpg",
+        "email": "bmmedicinadotrabalho@gmail.com",
+        "telephone": "+5524998741257",
+        "taxID": "42.637.176/0001-07",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Rua José Alves Caldeira",
+          "addressLocality": "Barra Mansa",
+          "addressRegion": "RJ",
+          "addressCountry": "BR"
+        },
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+            "opens": "08:00",
+            "closes": "17:45"
+          }
+        ],
+        "sameAs": ["https://www.instagram.com/clinicamodea"]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.clinicamodea.com.br/#site",
+        "url": "https://www.clinicamodea.com.br/",
+        "name": "Clínica Modea",
+        "publisher": { "@id": "https://www.clinicamodea.com.br/#empresa" },
+        "inLanguage": "pt-BR"
+      }
+    ]
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="image" href="assets/img/hero-bg.jpg" fetchpriority="high">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@600;700;800&family=Fraunces:ital,wght@1,400;1,500&display=swap" rel="stylesheet">
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --teal:        #1C4A52;
+      --teal-dark:   #102F35;
+      --teal-light:  #2F6B76;
+      --olive:       #5C6B32;
+      --olive-dark:  #45521F;
+      --olive-light: #93A75E;
+      --dark:        #0E2327;
+      --gray-900:    #1B2E2E;
+      --gray-800:    #35504E;
+      --gray-600:    #5C7876;
+      --gray-400:    #93A9A7;
+      --gray-200:    #DDE7E6;
+      --gray-100:    #EEF4F3;
+      --gray-50:     #FAFBFB;
+      --white:       #FFFFFF;
+      --text:        #16302F;
+      --text-light:  #52706D;
+      --line:        rgba(28,74,82,0.14);
+    }
+
+    html { scroll-behavior: smooth; overflow-x: hidden; scroll-padding-top: 90px; }
+    body {
+      font-family: 'Inter', sans-serif;
+      color: var(--text);
+      background: var(--white);
+      overflow-x: hidden;
+      line-height: 1.65;
+      opacity: 0;
+      transition: opacity 0.5s ease;
+      font-size: 16px;
+    }
+    body.loaded { opacity: 1; }
+    img { max-width: 100%; height: auto; display: block; }
+    a { text-decoration: none; color: inherit; }
+    ul { list-style: none; }
+
+    .container { width: 100%; max-width: 1220px; margin: 0 auto; padding: 0 32px; }
+    .container-narrow { width: 100%; max-width: 760px; margin: 0 auto; padding: 0 32px; }
+
+    :focus-visible {
+      outline: 2px solid var(--olive);
+      outline-offset: 3px;
+    }
+
+    /* ===== HEADER ===== */
+    header {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+      background: rgba(255,255,255,0.97);
+      border-bottom: 1px solid var(--line);
+      transition: box-shadow 0.3s;
+    }
+    header.scrolled { box-shadow: 0 2px 20px rgba(16,47,53,0.06); }
+
+    .header-inner {
+      display: flex; align-items: center; justify-content: space-between;
+      height: 90px; gap: 24px;
+    }
+
+    .logo-link { display: flex; align-items: center; gap: 12px; }
+    .logo-link img { height: 40px; width: auto; object-fit: contain; }
+    .logo-text { display: flex; flex-direction: column; line-height: 1.2; }
+    .logo-text strong { font-family: 'Poppins', sans-serif; font-size: 1.05rem; font-weight: 700; color: var(--teal); letter-spacing: -0.01em; }
+    .logo-text span { font-size: 0.62rem; font-weight: 600; letter-spacing: 0.14em; text-transform: uppercase; color: var(--olive); }
+
+    nav { display: flex; align-items: center; gap: 6px; }
+    nav a {
+      position: relative;
+      font-size: 0.82rem; font-weight: 500; letter-spacing: 0.02em; color: var(--gray-800);
+      padding: 8px 15px;
+      transition: color 0.2s;
+      white-space: nowrap;
+    }
+    nav a:not(.nav-vitrine):not(.btn-nav)::after {
+      content: ''; position: absolute; left: 15px; right: 15px; bottom: 4px;
+      height: 1px; background: var(--olive);
+      transform: scaleX(0); transform-origin: left;
+      transition: transform 0.3s ease;
+    }
+    nav a:hover { color: var(--teal); }
+    nav a:not(.nav-vitrine):not(.btn-nav):hover::after,
+    nav a.nav-active:not(.nav-vitrine):not(.btn-nav)::after { transform: scaleX(1); }
+    nav a.nav-active:not(.btn-nav) { color: var(--teal); }
+
+    .btn-nav {
+      background: var(--teal); color: var(--white) !important;
+      padding: 10px 22px;
+      font-weight: 600; font-size: 0.82rem; letter-spacing: 0.02em;
+      transition: background 0.2s;
+      margin-left: 8px;
+    }
+    .btn-nav:hover { background: var(--teal-dark); color: var(--white) !important; }
+
+    .nav-vitrine {
+      display: inline-flex; align-items: center; gap: 7px;
+      color: var(--olive) !important;
+      font-weight: 600 !important;
+    }
+    .nav-vitrine svg { width: 14px; height: 14px; flex-shrink: 0; }
+    .nav-vitrine:hover { color: var(--olive-dark) !important; }
+    .mobile-nav .nav-vitrine { justify-content: center; }
+
+    .menu-toggle {
+      display: none; flex-direction: column; gap: 5px;
+      cursor: pointer; padding: 6px; border: none; background: none;
+    }
+    .menu-toggle span {
+      display: block; width: 22px; height: 1.5px;
+      background: var(--teal); transition: all 0.3s;
+    }
+
+    .mobile-nav {
+      display: none; position: fixed; top: 90px; left: 0; right: 0;
+      background: var(--white); padding: 8px 24px 24px;
+      border-bottom: 1px solid var(--line);
+      z-index: 999;
+    }
+    .mobile-nav.open { display: flex; flex-direction: column; }
+    .mobile-nav a {
+      padding: 14px 4px; font-weight: 500; color: var(--text);
+      border-bottom: 1px solid var(--gray-100);
+    }
+    .mobile-nav a.nav-active:not(.btn-nav) { color: var(--teal); }
+    .mobile-nav .btn-nav {
+      margin-top: 16px; text-align: center; border-bottom: none;
+      background: var(--teal); color: var(--white) !important;
+    }
+
+    /* ===== HERO ===== */
+    .hero {
+      position: relative; min-height: 100vh;
+      display: flex; align-items: flex-end; padding-top: 90px;
+      background-image: url('assets/img/hero-bg.jpg');
+      background-size: cover; background-position: center; background-attachment: fixed;
+      overflow: hidden;
+    }
+    .hero::before {
+      content: ''; position: absolute; inset: 0;
+      background: linear-gradient(180deg, rgba(14,35,39,0.72) 0%, rgba(14,35,39,0.55) 40%, rgba(14,35,39,0.90) 100%);
+      z-index: 0;
+    }
+    .hero-content { position: relative; z-index: 1; max-width: 760px; padding: 64px 0 88px; }
+
+    .hero-eyebrow {
+      display: flex; align-items: center; gap: 12px;
+      color: rgba(255,255,255,0.75);
+      font-size: 0.76rem; font-weight: 600; letter-spacing: 0.16em;
+      text-transform: uppercase; margin-bottom: 26px;
+    }
+    .hero-eyebrow::before { content: ''; width: 32px; height: 1px; background: var(--olive-light); }
+
+    .hero h1 {
+      font-family: 'Poppins', sans-serif;
+      font-size: clamp(2.8rem, 7.2vw, 5.6rem);
+      font-weight: 700; color: var(--white); line-height: 1.02; margin-bottom: 22px;
+      letter-spacing: -0.02em;
+    }
+
+    .hero-slogan {
+      font-family: 'Fraunces', serif;
+      font-size: clamp(1.05rem, 1.6vw, 1.3rem); font-style: italic; font-weight: 400;
+      color: var(--olive-light); margin-bottom: 24px; max-width: 560px;
+    }
+
+    .hero h2 {
+      font-size: clamp(1rem, 1.6vw, 1.15rem); font-weight: 400;
+      color: rgba(255,255,255,0.82); margin-bottom: 44px; max-width: 600px; line-height: 1.7;
+    }
+
+    .hero-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 28px; margin-bottom: 64px; }
+
+    .btn-primary {
+      display: inline-flex; align-items: center; gap: 10px;
+      background: var(--olive); color: var(--white);
+      padding: 15px 30px;
+      font-weight: 600; font-size: 0.92rem;
+      transition: background 0.2s;
+    }
+    .btn-primary:hover { background: var(--olive-dark); }
+
+    .link-arrow {
+      display: inline-flex; align-items: center; gap: 8px;
+      color: var(--white); font-weight: 500; font-size: 0.92rem;
+      padding-bottom: 2px; border-bottom: 1px solid rgba(255,255,255,0.4);
+      transition: border-color 0.2s, gap 0.2s;
+    }
+    .link-arrow:hover { border-color: rgba(255,255,255,0.9); gap: 12px; }
+    .link-arrow svg { width: 15px; height: 15px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+
+    .hero-stats { display: flex; flex-wrap: wrap; gap: 0; border-top: 1px solid rgba(255,255,255,0.18); padding-top: 32px; }
+    .stat-item { display: flex; flex-direction: column; padding: 0 36px 0 0; margin-right: 36px; border-right: 1px solid rgba(255,255,255,0.18); }
+    .stat-item:last-child { border-right: none; margin-right: 0; padding-right: 0; }
+    .stat-num {
+      font-family: 'Poppins', sans-serif; font-size: 2.6rem;
+      font-weight: 700; color: var(--white); line-height: 1; letter-spacing: -0.01em;
+    }
+    .stat-num span { color: var(--olive-light); }
+    .stat-label { font-size: 0.76rem; color: rgba(255,255,255,0.62); margin-top: 6px; max-width: 150px; }
+
+    /* ===== SEÇÕES ===== */
+    section { padding: 128px 0; }
+
+    .eyebrow {
+      display: flex; align-items: center; gap: 12px; width: max-content;
+      font-size: 0.76rem; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase;
+      color: var(--olive); margin-bottom: 20px;
+    }
+    .eyebrow::before { content: ''; width: 28px; height: 1px; background: var(--olive); }
+    .section-header.center .eyebrow { margin-left: auto; margin-right: auto; }
+
+    .section-title {
+      font-family: 'Poppins', sans-serif;
+      font-size: clamp(2rem, 4.2vw, 3.4rem);
+      font-weight: 700; color: var(--gray-900); line-height: 1.1; margin-bottom: 22px;
+      letter-spacing: -0.015em;
+    }
+    .section-title em { font-style: italic; font-family: 'Fraunces', serif; font-weight: 400; color: var(--olive); }
+
+    .section-subtitle {
+      font-size: 1.02rem; color: var(--text-light); max-width: 600px; line-height: 1.8;
+    }
+    .section-header { margin-bottom: 72px; }
+    .section-header.center { text-align: center; }
+    .section-header.center .section-subtitle { margin: 0 auto; }
+
+    /* ===== SOBRE ===== */
+    .sobre-grid { display: grid; grid-template-columns: 0.9fr 1.1fr; gap: 88px; align-items: center; }
+
+    .sobre-img-wrap { position: relative; }
+    .sobre-img-wrap img { width: 100%; height: 480px; object-fit: cover; display: block; }
+    .sobre-caption {
+      display: flex; align-items: baseline; gap: 14px; margin-top: 18px;
+    }
+    .sobre-caption strong { font-family: 'Fraunces', serif; font-style: italic; font-size: 1.6rem; color: var(--olive); }
+    .sobre-caption span { font-size: 0.82rem; color: var(--text-light); }
+
+    .sobre-text p { margin-bottom: 20px; color: var(--text-light); }
+    .sobre-text .section-subtitle { max-width: none; margin-bottom: 20px; color: var(--text); font-size: 1.08rem; }
+    .sobre-text strong { color: var(--text); }
+
+    /* ===== NÚMEROS EM CHIP ===== */
+    .num-chip {
+      display: inline-flex; align-items: center; justify-content: center;
+      min-width: 38px; height: 38px; padding: 0 8px; flex-shrink: 0;
+      background: var(--olive); color: var(--white);
+      font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 0.85rem;
+      border-radius: 4px;
+    }
+
+    /* ===== MISSÃO, VISÃO E VALORES ===== */
+    .missao-visao { background: var(--dark); }
+    .missao-visao .eyebrow { color: var(--olive-light); }
+    .missao-visao .eyebrow::before { background: var(--olive-light); }
+    .missao-visao .section-title { color: var(--white); }
+    .missao-visao .section-subtitle { color: rgba(255,255,255,0.62); }
+
+    .mv-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0; margin-bottom: 88px; border-top: 1px solid rgba(255,255,255,0.14); }
+    .mv-card {
+      padding: 44px 48px 0 0;
+    }
+    .mv-card + .mv-card { padding-left: 48px; border-left: 1px solid rgba(255,255,255,0.14); }
+    .mv-num { display: flex; align-items: center; gap: 14px; font-family: 'Poppins', sans-serif; font-size: 0.78rem; font-weight: 700; color: rgba(255,255,255,0.7); letter-spacing: 0.10em; text-transform: uppercase; margin-bottom: 22px; padding-top: 32px; }
+    .mv-card h3 { font-family: 'Poppins', sans-serif; font-size: 1.5rem; font-weight: 700; color: var(--white); margin-bottom: 14px; }
+    .mv-card p { font-size: 0.98rem; color: rgba(255,255,255,0.6); line-height: 1.8; }
+
+    .valores-grid { display: grid; grid-template-columns: repeat(5, 1fr); border-top: 1px solid rgba(255,255,255,0.14); }
+    .valor-card {
+      padding: 32px 24px 0 0; border-right: 1px solid rgba(255,255,255,0.14);
+    }
+    .valor-card:last-child { border-right: none; }
+    .valor-num { margin-bottom: 18px; }
+    .valor-card h4 { font-size: 0.98rem; font-weight: 700; color: var(--white); margin-bottom: 8px; }
+    .valor-card p { font-size: 0.85rem; color: rgba(255,255,255,0.55); line-height: 1.7; }
+
+    /* ===== SERVIÇOS ===== */
+    .servicos-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0; border-top: 1px solid var(--line); }
+    .servico-panel { padding: 48px 56px 0 0; }
+    .servico-panel + .servico-panel { padding-left: 56px; border-left: 1px solid var(--line); }
+    .servico-num { margin-bottom: 22px; margin-top: 40px; }
+    .servico-panel h3 { font-family: 'Poppins', sans-serif; font-size: 1.6rem; font-weight: 700; color: var(--gray-900); margin-bottom: 14px; }
+    .servico-panel > p { font-size: 0.98rem; color: var(--text-light); line-height: 1.75; margin-bottom: 36px; }
+
+    .servico-list { display: flex; flex-direction: column; }
+    .servico-list li {
+      display: flex; gap: 18px; align-items: flex-start;
+      padding: 22px 0; border-top: 1px solid var(--gray-100);
+    }
+    .servico-list li:last-child { border-bottom: 1px solid var(--gray-100); }
+    .servico-list .tick { flex-shrink: 0; width: 15px; height: 15px; margin-top: 4px; color: var(--olive); }
+    .servico-list strong { display: block; font-size: 0.96rem; font-weight: 700; color: var(--gray-900); margin-bottom: 3px; }
+    .servico-list span { font-size: 0.86rem; color: var(--text-light); line-height: 1.6; }
+
+    /* ===== SOFTWARE / DIFERENCIAL EOCUPACIONAL ===== */
+    .software {
+      position: relative; overflow: hidden;
+      background-image: url('assets/img/software-bg.jpg');
+      background-size: cover; background-position: center; background-attachment: fixed;
+    }
+    .software::before {
+      content: ''; position: absolute; inset: 0;
+      background: rgba(10,18,20,0.86); z-index: 0;
+    }
+    .software .container { position: relative; z-index: 1; }
+    .software .eyebrow { color: var(--olive-light); }
+    .software .eyebrow::before { background: var(--olive-light); }
+    .software .section-header { max-width: 740px; }
+    .software .section-title { color: var(--white); }
+    .software .section-subtitle { color: rgba(255,255,255,0.68); }
+
+    .software-grid { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid rgba(255,255,255,0.16); }
+    .software-card { padding: 36px 32px 0 0; }
+    .software-card + .software-card { padding-left: 32px; border-left: 1px solid rgba(255,255,255,0.16); }
+    .software-num { margin-bottom: 20px; margin-top: 28px; }
+    .software-card h4 { font-family: 'Poppins', sans-serif; font-size: 1.15rem; font-weight: 700; color: var(--white); margin-bottom: 12px; }
+    .software-card p { font-size: 0.88rem; color: rgba(255,255,255,0.62); line-height: 1.7; }
+
+    /* ===== DIFERENCIAIS ===== */
+    .diff-list { border-top: 1px solid var(--line); }
+    .diff-row {
+      display: grid; grid-template-columns: 90px 1fr 1.6fr; gap: 32px; align-items: center;
+      padding: 32px 0; border-bottom: 1px solid var(--line);
+      transition: background 0.2s;
+    }
+    .diff-row:hover { background: var(--gray-50); }
+    .diff-row h4 { font-size: 1.1rem; font-weight: 700; color: var(--gray-900); }
+    .diff-row p { font-size: 0.92rem; color: var(--text-light); line-height: 1.7; }
+
+    /* ===== VITRINE CTA ===== */
+    .vitrine-cta { background: var(--olive); padding: 72px 0; }
+    .vitrine-box {
+      display: flex; align-items: center; justify-content: space-between; gap: 44px;
+    }
+    .vitrine-content h3 { font-family: 'Poppins', sans-serif; font-size: clamp(1.5rem, 2.6vw, 2rem); font-weight: 700; color: var(--white); margin-bottom: 12px; letter-spacing: -0.01em; }
+    .vitrine-content p { font-size: 0.98rem; color: rgba(255,255,255,0.78); line-height: 1.75; max-width: 520px; }
+    .btn-outline-dark {
+      display: inline-flex; align-items: center; gap: 10px; flex-shrink: 0;
+      background: var(--white); color: var(--olive-dark);
+      padding: 16px 32px; border: 1px solid var(--white);
+      font-weight: 700; font-size: 0.92rem;
+      transition: background 0.2s, color 0.2s, border-color 0.2s;
+    }
+    .btn-outline-dark:hover { background: transparent; color: var(--white); border-color: var(--white); }
+    .btn-outline-dark svg { width: 17px; height: 17px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+
+    @media (max-width: 768px) {
+      .vitrine-box { flex-direction: column; align-items: flex-start; gap: 28px; }
+    }
+
+    /* ===== CONTATO ===== */
+    .contato-grid { display: grid; grid-template-columns: 0.85fr 1.15fr; gap: 88px; align-items: start; }
+
+    .contato-info-list { display: flex; flex-direction: column; margin-top: 40px; border-top: 1px solid var(--line); }
+    .contato-item { display: flex; gap: 20px; align-items: flex-start; padding: 22px 0; border-bottom: 1px solid var(--line); }
+
+    .contato-icon {
+      flex-shrink: 0; width: 20px; height: 20px; margin-top: 2px;
+      color: var(--olive);
+    }
+    .contato-icon svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
+
+    .contato-item-text strong {
+      display: block; font-size: 0.72rem; font-weight: 700;
+      text-transform: uppercase; letter-spacing: 0.08em; color: var(--gray-600); margin-bottom: 5px;
+    }
+    .contato-item-text span, .contato-item-text a { font-size: 0.98rem; color: var(--text); line-height: 1.5; }
+    .contato-item-text a:hover { color: var(--olive); }
+
+    .mapa-wrap { margin-top: 32px; overflow: hidden; border: 1px solid var(--line); height: 240px; }
+    .mapa-wrap iframe { width: 100%; height: 100%; border: 0; display: block; filter: grayscale(0.3); }
+
+    .contato-form {
+      background: var(--gray-50); border: 1px solid var(--line);
+      padding: 48px;
+    }
+    .contato-form h3 {
+      font-family: 'Poppins', sans-serif; font-size: 1.3rem;
+      font-weight: 700; color: var(--gray-900); margin-bottom: 8px;
+    }
+    .contato-form > p { font-size: 0.9rem; color: var(--text-light); margin-bottom: 36px; }
+
+    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+    .form-group { display: flex; flex-direction: column; gap: 8px; margin-bottom: 22px; }
+    .form-group label { font-size: 0.76rem; font-weight: 600; letter-spacing: 0.03em; color: var(--gray-800); }
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+      padding: 13px 0; border: none; border-bottom: 1.5px solid var(--gray-200); background: transparent;
+      font-family: 'Inter', sans-serif; font-size: 0.95rem; color: var(--text);
+      transition: border-color 0.2s; outline: none; width: 100%; border-radius: 0;
+    }
+    .form-group input:focus,
+    .form-group select:focus,
+    .form-group textarea:focus { border-color: var(--olive); }
+    .form-group textarea { resize: vertical; min-height: 90px; }
+
+    .btn-submit {
+      width: 100%; padding: 16px; background: var(--teal); color: var(--white);
+      border: none; font-family: 'Inter', sans-serif;
+      font-size: 0.95rem; font-weight: 600; cursor: pointer;
+      transition: background 0.2s;
+      display: flex; align-items: center; justify-content: center; gap: 10px;
+      margin-top: 8px;
+    }
+    .btn-submit:hover { background: var(--teal-dark); }
+    .btn-submit svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+
+    /* ===== FOOTER ===== */
+    footer { background: var(--dark); color: rgba(255,255,255,0.62); padding: 88px 0 0; }
+
+    .footer-grid {
+      display: grid; grid-template-columns: 2fr 1fr 1fr 1.4fr;
+      gap: 40px; padding-bottom: 56px;
+      border-bottom: 1px solid rgba(255,255,255,0.10);
+    }
+
+    .footer-brand .footer-logo { display: inline-flex; align-items: center; gap: 10px; margin-bottom: 20px; }
+    .footer-brand .footer-logo img { height: 32px; width: auto; }
+    .footer-brand .footer-logo strong { font-family: 'Poppins', sans-serif; font-size: 1rem; font-weight: 700; color: var(--white); }
+    .footer-brand p { font-size: 0.875rem; line-height: 1.8; max-width: 280px; margin-bottom: 24px; color: rgba(255,255,255,0.48); }
+
+    .footer-social { display: flex; gap: 16px; }
+    .footer-social a { color: rgba(255,255,255,0.6); transition: color 0.2s; }
+    .footer-social a:hover { color: var(--olive-light); }
+    .footer-social a svg { width: 19px; height: 19px; fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
+
+    .footer-col h4 {
+      font-size: 0.68rem; font-weight: 700; text-transform: uppercase;
+      letter-spacing: 0.12em; color: rgba(255,255,255,0.85); margin-bottom: 22px;
+    }
+    .footer-col ul { display: flex; flex-direction: column; gap: 13px; min-width: 0; }
+    .footer-col ul li a { font-size: 0.875rem; color: rgba(255,255,255,0.50); transition: color 0.2s; min-width: 0; white-space: normal; overflow-wrap: break-word; }
+    .footer-col ul li a:hover { color: var(--olive-light); }
+
+    .footer-contact-item { display: flex; gap: 10px; align-items: flex-start; margin-bottom: 14px; }
+    .footer-contact-item svg { width: 14px; height: 14px; color: var(--olive-light); flex-shrink: 0; margin-top: 3px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+    .footer-contact-item span, .footer-contact-item a { font-size: 0.83rem; color: rgba(255,255,255,0.5); line-height: 1.6; }
+    .footer-contact-item a:hover { color: var(--olive-light); }
+
+    .footer-bottom {
+      padding: 24px 0; display: flex; flex-wrap: wrap;
+      justify-content: space-between; align-items: center;
+      gap: 12px; font-size: 0.76rem; color: rgba(255,255,255,0.32);
+    }
+
+    /* ===== WHATSAPP FLUTUANTE ===== */
+    .wa-float {
+      position: fixed; bottom: 28px; right: 28px; z-index: 9000;
+      width: 54px; height: 54px; border-radius: 50%;
+      background: #25D366; display: flex; align-items: center; justify-content: center;
+      box-shadow: 0 4px 16px rgba(37,211,102,0.35);
+      transition: box-shadow 0.2s, transform 0.15s;
+    }
+    .wa-float:hover { box-shadow: 0 6px 22px rgba(37,211,102,0.5); transform: scale(1.05); }
+    .wa-float svg { width: 28px; height: 28px; fill: var(--white); }
+
+    /* ===== VOLTAR AO TOPO ===== */
+    .back-to-top {
+      position: fixed; bottom: 28px; right: 94px; z-index: 8999;
+      width: 42px; height: 42px; border-radius: 50%;
+      background: var(--teal); border: none;
+      display: flex; align-items: center; justify-content: center;
+      opacity: 0; visibility: hidden; transform: translateY(8px);
+      transition: opacity 0.25s, transform 0.25s, visibility 0.25s, background 0.2s;
+    }
+    .back-to-top.visible { opacity: 1; visibility: visible; transform: translateY(0); }
+    .back-to-top:hover { background: var(--olive); }
+    .back-to-top svg { width: 16px; height: 16px; color: var(--white); fill: none; stroke: currentColor; stroke-width: 2.2; stroke-linecap: round; stroke-linejoin: round; }
+
+    /* ===== EFEITOS ===== */
+    @keyframes heroFadeUp   { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: none; } }
+
+    .hero-eyebrow    { animation: heroFadeUp 0.7s cubic-bezier(0.22,1,0.36,1) 0.15s both; }
+    .hero-content h1 { animation: heroFadeUp 0.75s cubic-bezier(0.22,1,0.36,1) 0.28s both; }
+    .hero-slogan     { animation: heroFadeUp 0.75s cubic-bezier(0.22,1,0.36,1) 0.40s both; }
+    .hero-content h2 { animation: heroFadeUp 0.75s cubic-bezier(0.22,1,0.36,1) 0.50s both; }
+    .hero-actions    { animation: heroFadeUp 0.75s cubic-bezier(0.22,1,0.36,1) 0.60s both; }
+    .hero-stats      { animation: heroFadeUp 0.75s cubic-bezier(0.22,1,0.36,1) 0.70s both; }
+
+    .reveal-up    { opacity: 0; transform: translateY(24px); transition: opacity 0.8s cubic-bezier(0.22,1,0.36,1), transform 0.8s cubic-bezier(0.22,1,0.36,1); }
+    .reveal-left  { opacity: 0; transform: translateX(-28px); transition: opacity 0.8s cubic-bezier(0.22,1,0.36,1), transform 0.8s cubic-bezier(0.22,1,0.36,1); }
+    .reveal-right { opacity: 0; transform: translateX(28px);  transition: opacity 0.8s cubic-bezier(0.22,1,0.36,1), transform 0.8s cubic-bezier(0.22,1,0.36,1); }
+    .revealed { opacity: 1 !important; transform: none; }
+    .delay-1 { transition-delay: 0.08s !important; }
+    .delay-2 { transition-delay: 0.16s !important; }
+    .delay-3 { transition-delay: 0.24s !important; }
+    .delay-4 { transition-delay: 0.32s !important; }
+
+    /* ===== RESPONSIVIDADE ===== */
+    @media (max-width: 1024px) {
+      section            { padding: 96px 0; }
+      .sobre-grid        { grid-template-columns: 1fr; gap: 48px; }
+      .contato-grid      { grid-template-columns: 1fr; gap: 48px; }
+      .servicos-grid     { grid-template-columns: 1fr; }
+      .servico-panel + .servico-panel { padding-left: 0; border-left: none; border-top: 1px solid var(--line); padding-top: 40px; margin-top: 8px; }
+      .footer-grid       { grid-template-columns: 1fr 1fr; gap: 32px; }
+      .footer-brand      { grid-column: 1 / -1; }
+      .valores-grid      { grid-template-columns: 1fr; }
+      .valor-card        { border-right: none !important; border-top: 1px solid var(--line); padding: 28px 0 !important; }
+      .valor-card:first-child { border-top: none; padding-top: 0 !important; }
+      .hero, .sobre, .servicos, .diferenciais, .contato { background-attachment: scroll; }
+      .software { background-attachment: scroll; }
+    }
+
+    @media (max-width: 1100px) {
+      nav               { display: none; }
+      .menu-toggle      { display: flex; }
+    }
+
+    @media (max-width: 900px) {
+      .mv-grid          { grid-template-columns: 1fr; }
+      .mv-card + .mv-card { padding-left: 0; border-left: none; border-top: 1px solid var(--line); padding-top: 40px; margin-top: 8px; }
+      .software-grid    { grid-template-columns: 1fr; }
+      .software-card + .software-card { padding-left: 0; border-left: none; border-top: 1px solid rgba(255,255,255,0.16); padding-top: 28px; margin-top: 8px; }
+      .diff-row         { grid-template-columns: 50px 1fr; row-gap: 6px; column-gap: 20px; align-items: start; }
+      .diff-num         { grid-row: 1 / 3; }
+      .diff-row p       { grid-column: 2 / -1; }
+      .form-row         { grid-template-columns: 1fr; }
+    }
+
+    @media (max-width: 640px) {
+      .header-inner     { height: 72px; }
+      .logo-link img    { height: 34px; }
+      .logo-text strong { font-size: 0.95rem; }
+      .mobile-nav       { top: 72px; padding: 8px 20px 20px; }
+      .hero             { padding-top: 72px; }
+      .hero-content     { padding: 40px 0 56px; }
+      .hero-actions     { flex-direction: column; align-items: flex-start; gap: 20px; }
+      .hero-stats       { flex-direction: column; gap: 20px; }
+      .stat-item        { border-right: none; margin-right: 0; padding-right: 0; padding-bottom: 16px; border-bottom: 1px solid rgba(255,255,255,0.18); }
+      .stat-item:last-child { border-bottom: none; padding-bottom: 0; }
+      .contato-form     { padding: 32px 24px; }
+      .back-to-top      { bottom: 20px; right: 82px; width: 40px; height: 40px; }
+      .wa-float         { bottom: 20px; right: 20px; width: 50px; height: 50px; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header id="header">
+    <div class="container">
+      <div class="header-inner">
+        <a href="#inicio" class="logo-link" aria-label="Clínica Modea - Início">
+          <img src="assets/img/logo-icon.png" alt="Clínica Modea — Logo" fetchpriority="high">
+          <span class="logo-text"><strong>Clínica Modea</strong><span>Saúde ocupacional</span></span>
+        </a>
+        <nav aria-label="Menu principal">
+          <a href="#inicio">Início</a>
+          <a href="#sobre">Sobre</a>
+          <a href="#servicos">Serviços</a>
+          <a href="#diferenciais">Diferenciais</a>
+          <a href="#contato">Contato</a>
+          <a href="vitrine.html" class="nav-vitrine">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+            Vitrine
+          </a>
+          <a href="https://wa.me/5524998741257" class="btn-nav" target="_blank" rel="noopener noreferrer">Fale conosco</a>
+        </nav>
+        <button class="menu-toggle" aria-label="Abrir menu" id="menuToggle" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- MENU MOBILE -->
+  <div class="mobile-nav" id="mobileNav" aria-label="Menu mobile">
+    <a href="#inicio" class="mobile-link">Início</a>
+    <a href="#sobre" class="mobile-link">Sobre</a>
+    <a href="#servicos" class="mobile-link">Serviços</a>
+    <a href="#diferenciais" class="mobile-link">Diferenciais</a>
+    <a href="#contato" class="mobile-link">Contato</a>
+    <a href="vitrine.html" class="nav-vitrine mobile-link">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+      Vitrine
+    </a>
+    <a href="https://wa.me/5524998741257" class="btn-nav mobile-link" target="_blank" rel="noopener noreferrer">Fale conosco</a>
+  </div>
+
+  <!-- HERO -->
+  <section class="hero" id="inicio" aria-label="Início">
+    <div class="container">
+      <div class="hero-content">
+        <span class="hero-eyebrow">25 anos em Barra Mansa/RJ</span>
+        <h1>Clínica Modea</h1>
+        <p class="hero-slogan">"Inteligência digital na gestão de saúde ocupacional"</p>
+        <h2>Perícia técnica, medicina e segurança do trabalho para empresas de Barra Mansa e região, com tecnologia própria de gestão ocupacional.</h2>
+        <div class="hero-actions">
+          <a href="https://wa.me/5524998741257" class="btn-primary" aria-label="Fale conosco via WhatsApp" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            Fale no WhatsApp
+          </a>
+          <a href="#servicos" class="link-arrow">
+            Nossos serviços
+            <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+          <a href="vitrine.html" class="link-arrow">
+            Ver vitrine online
+            <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat-item">
+            <span class="stat-num">25<span>+</span></span>
+            <span class="stat-label">Anos de tradição em Barra Mansa/RJ</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-num">100<span>%</span></span>
+            <span class="stat-label">Compromisso com a conformidade legal</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-num">8h–17h45</span>
+            <span class="stat-label">Segunda a sexta</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE -->
+  <section class="sobre" id="sobre" aria-label="Sobre a empresa">
+    <div class="container">
+      <div class="sobre-grid">
+        <div class="reveal-left">
+          <div class="sobre-img-wrap">
+            <img src="assets/img/sobre-img.jpg" alt="Médico realizando exame ocupacional em paciente na Clínica Modea" loading="lazy">
+          </div>
+          <div class="sobre-caption">
+            <strong>25</strong>
+            <span>Anos de tradição em Barra Mansa/RJ</span>
+          </div>
+        </div>
+        <div class="sobre-text reveal-right">
+          <span class="eyebrow">Nossa história</span>
+          <h2 class="section-title">Uma trajetória construída com <em>técnica e confiança</em></h2>
+          <p class="section-subtitle">A Clínica Modea nasceu com base na sólida experiência do Dr. Erlei Oliveira Andrade, médico com mais de 30 anos de atuação e histórico como coordenador de saúde ocupacional em grandes indústrias e montadoras automobilísticas.</p>
+          <p>O que começou como um atendimento médico especializado em Barra Mansa evoluiu para uma estrutura robusta de engenharia e assessoria jurídica. O grande marco de inovação da clínica foi o desenvolvimento do software próprio <strong>eOcupacional</strong>, que modernizou o controle de laudos, exames e prazos para empresas de todo o Rio de Janeiro e São Paulo.</p>
+          <p>Hoje, a Modea combina tecnologia de ponta com um corpo técnico multidisciplinar para garantir a saúde do trabalhador e a total conformidade legal de seus clientes.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MISSÃO, VISÃO E VALORES -->
+  <section class="missao-visao" aria-label="Missão, visão e valores">
+    <div class="container">
+      <div class="section-header center">
+        <span class="eyebrow">Missão, visão e valores</span>
+        <h2 class="section-title">O que nos guia todos os <em>dias</em></h2>
+        <p class="section-subtitle">Os princípios que sustentam 25 anos de história em medicina e segurança do trabalho.</p>
+      </div>
+      <div class="mv-grid">
+        <div class="mv-card reveal-up">
+          <span class="mv-num"><span class="num-chip">01</span> Missão</span>
+          <h3>Conformidade e cuidado</h3>
+          <p>Oferecer serviços especializados em perícia técnica e medicina do trabalho, auxiliando as empresas de Barra Mansa a cumprirem as normas regulamentadoras vigentes e promovendo a preservação da saúde e segurança do trabalhador.</p>
+        </div>
+        <div class="mv-card reveal-up delay-1">
+          <span class="mv-num"><span class="num-chip">02</span> Visão</span>
+          <h3>Referência regional</h3>
+          <p>Ser reconhecida no município de Barra Mansa como uma clínica de referência em agilidade, confiabilidade técnica e conformidade legal na emissão de exames e laudos ocupacionais.</p>
+        </div>
+      </div>
+      <div class="valores-grid">
+        <div class="valor-card reveal-up">
+          <span class="valor-num num-chip">01</span>
+          <h4>Rigor técnico</h4>
+          <p>Precisão e cuidado em cada laudo, exame e diagnóstico realizado.</p>
+        </div>
+        <div class="valor-card reveal-up delay-1">
+          <span class="valor-num num-chip">02</span>
+          <h4>Conformidade legal</h4>
+          <p>Cumprimento rigoroso das legislações trabalhistas e normas regulamentadoras.</p>
+        </div>
+        <div class="valor-card reveal-up delay-2">
+          <span class="valor-num num-chip">03</span>
+          <h4>Ética médica</h4>
+          <p>Respeito ao paciente e sigilo profissional em cada atendimento.</p>
+        </div>
+        <div class="valor-card reveal-up delay-3">
+          <span class="valor-num num-chip">04</span>
+          <h4>Agilidade corporativa</h4>
+          <p>Atendimento rápido para não travar a rotina das empresas parceiras.</p>
+        </div>
+        <div class="valor-card reveal-up delay-4">
+          <span class="valor-num num-chip">05</span>
+          <h4>Prevenção de riscos</h4>
+          <p>Compromisso com a prevenção de riscos no ambiente de trabalho.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVIÇOS -->
+  <section class="servicos" id="servicos" aria-label="Serviços">
+    <div class="container">
+      <div class="section-header center">
+        <span class="eyebrow">Nossos serviços</span>
+        <h2 class="section-title">As duas frentes exigidas por <em>lei</em></h2>
+        <p class="section-subtitle">Medicina do trabalho e engenharia de segurança, integradas para manter sua empresa em dia com o eSocial e as normas regulamentadoras.</p>
+      </div>
+      <div class="servicos-grid">
+        <div class="servico-panel reveal-left">
+          <span class="servico-num num-chip">01</span>
+          <h3>Medicina do trabalho</h3>
+          <p>Saúde do trabalhador acompanhada de perto, do exame admissional ao retorno ao trabalho.</p>
+          <ul class="servico-list">
+            <li>
+              <svg class="tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              <div><strong>PCMSO (NR-7)</strong><span>Programa de Controle Médico de Saúde Ocupacional, que define quais exames cada funcionário deve realizar.</span></div>
+            </li>
+            <li>
+              <svg class="tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              <div><strong>Exames admissionais e periódicos</strong><span>Emissão de ASO (Atestado de Saúde Ocupacional) completo.</span></div>
+            </li>
+            <li>
+              <svg class="tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              <div><strong>Demissionais, retorno e mudança de risco</strong><span>Emissão de ASO para desligamento, retorno ao trabalho e mudança de função.</span></div>
+            </li>
+            <li>
+              <svg class="tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              <div><strong>Exames complementares</strong><span>Audiometria, espirometria, ECG, EEG e exames laboratoriais na própria estrutura.</span></div>
+            </li>
+          </ul>
+        </div>
+        <div class="servico-panel reveal-right">
+          <span class="servico-num num-chip">02</span>
+          <h3>Engenharia de segurança</h3>
+          <p>Prevenção de riscos físicos, químicos e biológicos no ambiente de trabalho.</p>
+          <ul class="servico-list">
+            <li>
+              <svg class="tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              <div><strong>PGR (NR-1)</strong><span>Programa de Gerenciamento de Riscos, identificando e gerenciando os riscos da empresa.</span></div>
+            </li>
+            <li>
+              <svg class="tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              <div><strong>LTCAT</strong><span>Laudo Técnico das Condições Ambientais do Trabalho, essencial para aposentadoria especial junto ao INSS.</span></div>
+            </li>
+            <li>
+              <svg class="tick" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+              <div><strong>Laudos de insalubridade e periculosidade</strong><span>Avaliações técnicas conforme NR-15 e NR-16, para definir adicionais salariais por risco.</span></div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOFTWARE EOCUPACIONAL -->
+  <section class="software" aria-label="Sistema eOcupacional">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow">Diferencial tecnológico</span>
+        <h2 class="section-title">Tecnologia própria: sistema <em>eOcupacional</em></h2>
+        <p class="section-subtitle">Em vez de laudos físicos que se perdem em papel, a Clínica Modea entrega gestão ocupacional 100% digital — e é esse o grande diferencial que oferecemos às empresas parceiras.</p>
+      </div>
+      <div class="software-grid">
+        <div class="software-card reveal-up">
+          <span class="software-num num-chip">01</span>
+          <h4>Envio automático ao eSocial</h4>
+          <p>Envia os eventos obrigatórios de SST (S-2210, S-2220 e S-2240) direto para o governo federal, evitando multas para os clientes.</p>
+        </div>
+        <div class="software-card reveal-up delay-1">
+          <span class="software-num num-chip">02</span>
+          <h4>Gestão na nuvem</h4>
+          <p>O RH da empresa parceira acessa o perfil de cada funcionário, acompanha exames vencendo e convoca o trabalhador com antecedência.</p>
+        </div>
+        <div class="software-card reveal-up delay-2">
+          <span class="software-num num-chip">03</span>
+          <h4>Redução de custos</h4>
+          <p>Elimina o trabalho manual de controle de planilhas e evita o esquecimento de exames obrigatórios.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DIFERENCIAIS -->
+  <section class="diferenciais" id="diferenciais" aria-label="Diferenciais">
+    <div class="container">
+      <div class="section-header center">
+        <span class="eyebrow">Diferenciais</span>
+        <h2 class="section-title">Por que escolher a <em>Clínica Modea</em></h2>
+        <p class="section-subtitle">25 anos de experiência a favor da conformidade legal da sua empresa.</p>
+      </div>
+      <div class="diff-list">
+        <div class="diff-row reveal-up">
+          <span class="diff-num num-chip">01</span>
+          <h4>Mais de 30 anos de experiência</h4>
+          <p>Coordenado pelo Dr. Erlei Oliveira Andrade, com histórico em grandes indústrias e montadoras.</p>
+        </div>
+        <div class="diff-row reveal-up">
+          <span class="diff-num num-chip">02</span>
+          <h4>Tecnologia própria</h4>
+          <p>Sistema eOcupacional para gestão digital de laudos, exames e prazos.</p>
+        </div>
+        <div class="diff-row reveal-up">
+          <span class="diff-num num-chip">03</span>
+          <h4>Equipe multidisciplinar</h4>
+          <p>Médicos, engenheiros de segurança e assessoria jurídica em um só lugar.</p>
+        </div>
+        <div class="diff-row reveal-up">
+          <span class="diff-num num-chip">04</span>
+          <h4>Conformidade legal garantida</h4>
+          <p>NRs e eSocial sempre em dia, evitando multas e passivos trabalhistas.</p>
+        </div>
+        <div class="diff-row reveal-up">
+          <span class="diff-num num-chip">05</span>
+          <h4>Estrutura própria</h4>
+          <p>Exames complementares realizados na própria clínica, sem depender de terceiros.</p>
+        </div>
+        <div class="diff-row reveal-up">
+          <span class="diff-num num-chip">06</span>
+          <h4>Atendimento corporativo ágil</h4>
+          <p>Agilidade no atendimento para não travar a rotina das empresas parceiras.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VITRINE CTA -->
+  <section class="vitrine-cta" id="vitrine-cta" aria-labelledby="vitrine-cta-title">
+    <div class="container">
+      <div class="vitrine-box reveal-up">
+        <div class="vitrine-content">
+          <h3 id="vitrine-cta-title">Conheça nossa vitrine online</h3>
+          <p>Consulte nossos serviços e solicite orçamentos direto pela nossa vitrine digital, disponível a qualquer hora para sua empresa.</p>
+        </div>
+        <a href="vitrine.html" class="btn-outline-dark">
+          Acessar vitrine online
+          <svg viewBox="0 0 24 24"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section class="contato" id="contato" aria-label="Contato">
+    <div class="container">
+      <div class="contato-grid">
+        <div class="contato-info">
+          <span class="eyebrow">Contato</span>
+          <h2 class="section-title">Vamos conversar sobre a saúde da sua <em>empresa</em></h2>
+          <p class="section-subtitle">Fale com a gente e mantenha sua empresa em conformidade com as normas regulamentadoras.</p>
+          <div class="contato-info-list">
+            <div class="contato-item">
+              <div class="contato-icon"><svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+              <div class="contato-item-text"><strong>Endereço</strong><span>Rua José Alves Caldeira — Barra Mansa/RJ</span></div>
+            </div>
+            <div class="contato-item">
+              <div class="contato-icon"><svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347" fill="currentColor" stroke="none"/><path d="M12.05 22a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374A9.86 9.86 0 012.157 12C2.16 6.55 6.594 2.117 12.046 2.117c2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994C21.924 17.56 17.5 22 12.05 22z"/></svg></div>
+              <div class="contato-item-text"><strong>WhatsApp</strong><span><a href="https://wa.me/5524998741257" target="_blank" rel="noopener noreferrer">(24) 99874-1257</a> · <a href="https://wa.me/5524999483706" target="_blank" rel="noopener noreferrer">(24) 99948-3706</a></span></div>
+            </div>
+            <div class="contato-item">
+              <div class="contato-icon"><svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div>
+              <div class="contato-item-text"><strong>E-mail</strong><span>bmmedicinadotrabalho@gmail.com</span></div>
+            </div>
+            <div class="contato-item">
+              <div class="contato-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
+              <div class="contato-item-text"><strong>Horário de funcionamento</strong><span>Segunda a sexta, das 8h às 17h45</span></div>
+            </div>
+            <div class="contato-item">
+              <div class="contato-icon"><svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></div>
+              <div class="contato-item-text"><strong>Instagram</strong><span><a href="https://www.instagram.com/clinicamodea" target="_blank" rel="noopener noreferrer">@clinicamodea</a></span></div>
+            </div>
+          </div>
+          <div class="mapa-wrap">
+            <iframe src="https://www.google.com/maps?q=Rua+Jos%C3%A9+Alves+Caldeira,+Barra+Mansa,+RJ&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Mapa de localização da Clínica Modea em Barra Mansa/RJ"></iframe>
+          </div>
+        </div>
+
+        <div class="contato-form">
+          <h3>Envie sua mensagem</h3>
+          <p>Preencha o formulário e fale direto com a gente pelo WhatsApp.</p>
+          <form id="contactForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+              </div>
+              <div class="form-group">
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" name="telefone" placeholder="(24) 90000-0000" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="assunto">Assunto</label>
+              <select id="assunto" name="assunto">
+                <option value="">Selecione uma opção</option>
+                <option value="pcmso-pgr">PCMSO / PGR para minha empresa</option>
+                <option value="exame">Agendar exame ocupacional</option>
+                <option value="eocupacional">Conhecer o sistema eOcupacional</option>
+                <option value="outro">Outro assunto</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="mensagem">Mensagem</label>
+              <textarea id="mensagem" name="mensagem" placeholder="Como podemos te ajudar?"></textarea>
+            </div>
+            <button type="submit" class="btn-submit">
+              <svg viewBox="0 0 24 24"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+              Enviar mensagem
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <img src="assets/img/logo-icon.png" alt="Clínica Modea — Logo" loading="lazy">
+            <strong>Clínica Modea</strong>
+          </div>
+          <p>Clínica Modea — medicina e segurança do trabalho em Barra Mansa/RJ, com tecnologia própria de gestão ocupacional há 25 anos.</p>
+          <div class="footer-social">
+            <a href="https://www.instagram.com/clinicamodea" target="_blank" rel="noopener noreferrer" aria-label="Instagram da Clínica Modea">
+              <svg viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+            <a href="https://wa.me/5524998741257" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp da Clínica Modea">
+              <svg viewBox="0 0 24 24" fill="currentColor" stroke="none"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navegação</h4>
+          <ul>
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#sobre">Sobre nós</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#diferenciais">Diferenciais</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Serviços</h4>
+          <ul>
+            <li><a href="#servicos">PCMSO (NR-7)</a></li>
+            <li><a href="#servicos">Exames ocupacionais (ASO)</a></li>
+            <li><a href="#servicos">PGR (NR-1)</a></li>
+            <li><a href="#servicos">LTCAT</a></li>
+            <li><a href="#servicos">Insalubridade e periculosidade</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contato</h4>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <span>bmmedicinadotrabalho@gmail.com</span>
+          </div>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span>Rua José Alves Caldeira — Barra Mansa/RJ</span>
+          </div>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            <span>Segunda a sexta, das 8h às 17h45</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>© 2026 Clínica Modea — Medicina do Trabalho BM Ltda — CNPJ: 42.637.176/0001-07</span>
+        <span>Desenvolvido por <strong style="color:rgba(255,255,255,0.55)">MonteSite</strong></span>
+      </div>
+    </div>
+
+    <!-- Rodapé MonteSite - Atualização Automática -->
+    <div id="montesite-footer-badge"></div>
+    <script src="https://vaabpicspdbolvutnscp.supabase.co/functions/v1/get-footer-iframe"></script>
+  </footer>
+
+  <!-- WHATSAPP FLUTUANTE -->
+  <a href="https://wa.me/5524998741257" class="wa-float" aria-label="Falar no WhatsApp" target="_blank" rel="noopener noreferrer">
+    <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" fill="currentColor" stroke="none"/></svg>
+  </a>
+
+  <!-- VOLTAR AO TOPO -->
+  <button type="button" class="back-to-top" id="backToTop" aria-label="Voltar ao topo">
+    <svg viewBox="0 0 24 24"><line x1="12" y1="19" x2="12" y2="5"/><polyline points="5 12 12 5 19 12"/></svg>
+  </button>
+
+  <script>
+    // Fade-in inicial da página
+    document.body.classList.add('loaded');
+
+    // Voltar ao topo
+    const backToTop = document.getElementById('backToTop');
+    window.addEventListener('scroll', () => {
+      backToTop.classList.toggle('visible', window.scrollY > 700);
+    }, { passive: true });
+    backToTop.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
+    // Header shadow
+    const header = document.getElementById('header');
+    window.addEventListener('scroll', () => {
+      header.classList.toggle('scrolled', window.scrollY > 20);
+    }, { passive: true });
+
+    // Mobile menu
+    const toggle = document.getElementById('menuToggle');
+    const mNav   = document.getElementById('mobileNav');
+    const spans  = toggle.querySelectorAll('span');
+    toggle.addEventListener('click', () => {
+      const open = mNav.classList.toggle('open');
+      toggle.setAttribute('aria-expanded', open);
+      if (open) {
+        spans[0].style.cssText = 'transform:rotate(45deg) translate(5px,5px)';
+        spans[1].style.cssText = 'opacity:0;transform:scaleX(0)';
+        spans[2].style.cssText = 'transform:rotate(-45deg) translate(5px,-5px)';
+      } else {
+        spans.forEach(s => s.style.cssText = '');
+      }
+    });
+    document.querySelectorAll('.mobile-link').forEach(l => {
+      l.addEventListener('click', () => {
+        mNav.classList.remove('open');
+        spans.forEach(s => s.style.cssText = '');
+        toggle.setAttribute('aria-expanded', 'false');
+      });
+    });
+
+    // Formulário → WhatsApp
+    document.getElementById('contactForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      const nome     = document.getElementById('nome').value.trim();
+      const telefone = document.getElementById('telefone').value.trim();
+      const assunto  = document.getElementById('assunto').value;
+      const mensagem = document.getElementById('mensagem').value.trim();
+      if (!nome || !telefone) { alert('Por favor, preencha nome e telefone.'); return; }
+      const labels = {
+        'pcmso-pgr': 'PCMSO / PGR para minha empresa', 'exame': 'Agendar exame ocupacional',
+        'eocupacional': 'Conhecer o sistema eOcupacional', 'outro': 'Outro assunto'
+      };
+      let msg = `Olá! Vim pelo site e gostaria de saber mais.\n\n`;
+      msg += `*Nome:* ${nome}\n*Telefone:* ${telefone}\n`;
+      if (assunto)  msg += `*Assunto:* ${labels[assunto] || assunto}\n`;
+      if (mensagem) msg += `\n*Mensagem:* ${mensagem}`;
+      window.open(`https://wa.me/5524998741257?text=${encodeURIComponent(msg)}`, '_blank');
+    });
+
+    // Count-up
+    function countUp(el) {
+      const m = el.textContent.trim().match(/^(\d+)/);
+      if (!m || parseInt(m[1]) < 3) return;
+      const target = parseInt(m[1]);
+      const rest   = el.innerHTML.replace(/^\d+/, '');
+      const dur = 1600, t0 = performance.now();
+      function ease(t) { return 1 - Math.pow(1 - t, 4); }
+      (function tick(now) {
+        const p = Math.min((now - t0) / dur, 1);
+        el.innerHTML = Math.round(ease(p) * target) + rest;
+        if (p < 1) requestAnimationFrame(tick);
+      })(t0);
+    }
+    const numObs = new IntersectionObserver(entries => {
+      entries.forEach(e => { if (e.isIntersecting) { countUp(e.target); numObs.unobserve(e.target); } });
+    }, { threshold: 0.4 });
+    document.querySelectorAll('.stat-num').forEach(el => numObs.observe(el));
+
+    // Scroll reveal
+    const revealConfig = [
+      { sel: '.section-header',      dir: 'up' },
+      { sel: '.diff-row',            dir: 'up',   stagger: true },
+      { sel: '.footer-brand',        dir: 'up' },
+      { sel: '.footer-col',          dir: 'up',   stagger: true },
+    ];
+    const delays = ['','delay-1','delay-2','delay-3','delay-4'];
+    const revObs = new IntersectionObserver(entries => {
+      entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('revealed'); revObs.unobserve(e.target); } });
+    }, { threshold: 0.12 });
+    revealConfig.forEach(({ sel, dir, stagger }) => {
+      document.querySelectorAll(sel).forEach((el, i) => {
+        el.classList.add('reveal-' + dir);
+        if (stagger && delays[i % delays.length]) el.classList.add(delays[i % delays.length]);
+        revObs.observe(el);
+      });
+    });
+    document.querySelectorAll('.sobre-grid > div, .mv-card, .valor-card, .servico-panel, .software-card, .vitrine-box, .contato-info-list, .contato-form').forEach(el => revObs.observe(el));
+
+    // Zoom sutil (ken burns) na imagem da seção Sobre conforme a rolagem
+    (function() {
+      const wrap = document.querySelector('.sobre-img-wrap');
+      const img  = wrap ? wrap.querySelector('img') : null;
+      if (!wrap || !img || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+      img.style.transition = 'transform 0.2s linear';
+      img.style.willChange = 'transform';
+      function update() {
+        const r = wrap.getBoundingClientRect();
+        const vh = window.innerHeight;
+        const progress = 1 - Math.min(Math.max((r.top + r.height / 2) / (vh + r.height), 0), 1);
+        img.style.transform = `scale(${1 + progress * 0.1})`;
+      }
+      window.addEventListener('scroll', update, { passive: true });
+      window.addEventListener('resize', update, { passive: true });
+      update();
+    })();
+
+    // Active nav conforme seção visível
+    (function() {
+      const secs     = document.querySelectorAll('section[id]');
+      const navLinks = document.querySelectorAll('nav a[href^="#"], .mobile-nav a[href^="#"]');
+      function setActive(id) {
+        navLinks.forEach(a => {
+          a.classList.toggle('nav-active', a.getAttribute('href') === '#' + id);
+        });
+      }
+      const obs = new IntersectionObserver(entries => {
+        entries.forEach(e => { if (e.isIntersecting) setActive(e.target.id); });
+      }, { threshold: 0.35 });
+      secs.forEach(s => obs.observe(s));
+    })();
+  </script>
+</body>
+</html>
